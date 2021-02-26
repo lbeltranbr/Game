@@ -271,7 +271,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 10ebe7a8e14363545946d5a92ac0bcb0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4b2c097411f08ab438f44dbf2b173083, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -495,6 +495,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 438554782}
+  - component: {fileID: 438554783}
   m_Layer: 5
   m_Name: Main Menu
   m_TagString: Untagged
@@ -521,9 +522,22 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.4, y: -2.7}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 188.47351, y: 178.94562}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &438554783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438554781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8b8369954aa41d4d9142811cdf21d4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneName: MainScene
 --- !u!1 &672437138
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,7 +940,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1098297489}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 438554783}
+        m_MethodName: GoToMainScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MainScene
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1098297489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1076,7 +1101,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.4, y: -2.7}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 188.47351, y: 178.94562}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1338364538
@@ -1160,7 +1185,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1338364541}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 438554783}
+        m_MethodName: Quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1338364541
 MonoBehaviour:
   m_ObjectHideFlags: 0
