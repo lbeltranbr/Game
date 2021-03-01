@@ -12,7 +12,7 @@ public class SimpleMovement : MonoBehaviour
 
     private float GroundRad = .1f;
     private float CeilingRad = .2f;
-    private bool m_Grounded;
+    private bool m_Grounded = true;
     private bool jump = false;
     private Rigidbody2D m_Rigidbody2D;
     private Vector3 vertical = new Vector3(0.0f, 0.0f, 0.0f);
@@ -40,8 +40,10 @@ public class SimpleMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+         
             if (m_Grounded)
             {
+                Debug.Log("caca");
                 // Add a vertical force to the player.
                 m_Grounded = false;
                 jump = true;
@@ -54,14 +56,16 @@ public class SimpleMovement : MonoBehaviour
             }
         }
         if (!m_Grounded){
-           // velocity.y -= m_Rigidbody2D.gravityScale * Time.deltaTime;
+            if (transform.position.y > -2.5)
+            {
+                vertical.y = 0f;
+                jump = false;
+            }
         }
-
-       
-
+        
             transform.position = transform.position + (horizontal + vertical) * Time.deltaTime * speed;
 
-            Debug.Log(transform.position);
+            //Debug.Log(transform.position);
     }
 
     private void FixedUpdate()
