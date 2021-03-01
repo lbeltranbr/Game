@@ -5,6 +5,7 @@ using UnityEngine;
 public class turnOnLight : MonoBehaviour
 {
     public GameObject light;
+    public GameObject light_player;
     //public GameObject sprite_text;
 
     //private bool on = false;
@@ -31,7 +32,8 @@ public class turnOnLight : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col)
     {
         //Debug.Log("OnCollisionEnter2D");
-        light.SetActive(true);
+        if(light_player.activeSelf)
+            light.SetActive(true);
     }
     /*private float ComputeDistance()
     {
