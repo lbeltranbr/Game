@@ -5,19 +5,80 @@ using UnityEngine;
 public class SimpleMovement : MonoBehaviour
 {
     public Animator animator;
+    public SpriteRenderer spriteRenderer;
+    public Transform GroundCheck;
     public float speed;
+    public float JumpForce;
 
+    private float GroundRad = .1f;
+    private float CeilingRad = .2f;
+    private bool m_Grounded;
+    private bool jump = false;
+    private Rigidbody2D m_Rigidbody2D;
+    private Vector3 vertical = new Vector3(0.0f, 0.0f, 0.0f);
+
+    private const float GRAVITY = 10f;
+
+
+    private void Start()
+    {
+        m_Rigidbody2D = GetComponent<Rigidbody2D>();
+    }
     // Update is called once per frame
     void Update()
     {
-        animator.SetFloat("Horizontal",Input.GetAxis("Horizontal"));
-        animator.SetFloat("Vertical",Input.GetAxis("Vertical"));
-        Vector3 horizontal = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
-        /*Vector3 vertical = new Vector3( 0.0f, Input.GetAxis("Vertical"), Input.GetAxis("Vertical"));
-        transform.position = transform.position + (horizontal+vertical) * Time.deltaTime * speed;*/
-        transform.position = transform.position + horizontal * Time.deltaTime * speed;
 
-        if(Input.GetKeyDown(KeyCode.Space))
-            animator.SetTrigger("Jump");
+        /*********************** HORIZONTAL MOVEMENT ***********************/
+        animator.SetFloat("Horizontal", Mathf.Abs(Input.GetAxis("Horizontal")));
+        Vector3 horizontal = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
+        if (horizontal.x > 0.01)
+            spriteRenderer.flipX = false;
+        else if (horizontal.x < -0.01f)
+            spriteRenderer.flipX = true;
+
+        /*********************** VERTICAL MOVEMENT ***********************/
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (m_Grounded)
+            {
+                // Add a vertical force to the player.
+                m_Grounded = false;
+                jump = true;
+                //m_Rigidbody2D.AddForce(new Vector2(0f, JumpForce));
+                vertical.y = JumpForce * 0.5f;
+                //vertical = new Vector3(0.0f, 1.0f, 0.0f);
+
+                animator.SetBool("Grounded", m_Grounded);
+
+            }
+        }
+        if (!m_Grounded){
+           // velocity.y -= m_Rigidbody2D.gravityScale * Time.deltaTime;
+        }
+
+       
+
+            transform.position = transform.position + (horizontal + vertical) * Time.deltaTime * speed;
+
+            Debug.Log(transform.position);
+    }
+
+    private void FixedUpdate()
+    {
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(GroundCheck.position, GroundRad);
+        if (!jump)
+        {
+            for (int i = 0; i < colliders.Length; i++)
+            {
+                if (colliders[i].gameObject != gameObject)
+                {
+                    m_Grounded = true;
+                    animator.SetBool("Grounded", m_Grounded);
+
+                }
+            }
+        }
+        
     }
 }

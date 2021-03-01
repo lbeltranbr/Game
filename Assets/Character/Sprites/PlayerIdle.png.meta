@@ -1,219 +1,123 @@
 fileFormatVersion: 2
-guid: 29b23d81e6081d346962a3ce98f38a3a
+guid: ba86c7b200abe499cb750833482830b3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8491956614035521118
-    second: spritesheet_2_0
+      213: 21300000
+    second: Unity_MC_render_idle_0
   - first:
-      213: -3837702315187162603
-    second: spritesheet_2_1
+      213: 21300002
+    second: Unity_MC_render_idle_1
   - first:
-      213: 2569100708621144869
-    second: spritesheet_2_2
+      213: 21300004
+    second: Unity_MC_render_idle_2
   - first:
-      213: -3993288347735931237
-    second: spritesheet_2_3
+      213: 21300006
+    second: Unity_MC_render_idle_3
   - first:
-      213: 8950025076985365624
-    second: spritesheet_2_4
+      213: 21300008
+    second: Unity_MC_render_idle_4
   - first:
-      213: -8875862564875435290
-    second: spritesheet_2_5
+      213: 21300010
+    second: Unity_MC_render_idle_5
   - first:
-      213: 8233645187710016264
-    second: spritesheet_2_6
+      213: 21300012
+    second: Unity_MC_render_idle_6
   - first:
-      213: 8521182879252874860
-    second: spritesheet_2_7
+      213: 21300014
+    second: Unity_MC_render_idle_7
   - first:
-      213: 5129092750833557445
-    second: spritesheet_2_8
+      213: 21300016
+    second: Unity_MC_render_idle_8
   - first:
-      213: -9000165094889331372
-    second: spritesheet_2_9
+      213: 21300018
+    second: Unity_MC_render_idle_9
   - first:
-      213: 8294873765667503973
-    second: spritesheet_2_10
+      213: 21300020
+    second: Unity_MC_render_idle_10
   - first:
-      213: 3832644435989426482
-    second: spritesheet_2_11
+      213: 21300022
+    second: Unity_MC_render_idle_11
   - first:
-      213: 4738425652870097708
-    second: spritesheet_2_12
+      213: 21300024
+    second: Unity_MC_render_idle_12
   - first:
-      213: 2368661559500192228
-    second: spritesheet_2_13
+      213: 21300026
+    second: Unity_MC_render_idle_13
   - first:
-      213: 9103127817338196606
-    second: spritesheet_2_14
+      213: 21300028
+    second: Unity_MC_render_idle_14
   - first:
-      213: -8149018022313179117
-    second: spritesheet_2_15
+      213: 21300030
+    second: Unity_MC_render_idle_15
   - first:
-      213: 6751242756475174427
-    second: spritesheet_2_16
+      213: 21300032
+    second: Unity_MC_render_idle_16
   - first:
-      213: 7487175565018950654
-    second: spritesheet_2_17
+      213: 21300034
+    second: Unity_MC_render_idle_17
   - first:
-      213: 5526209199736040706
-    second: spritesheet_2_18
+      213: 21300036
+    second: Unity_MC_render_idle_18
   - first:
-      213: -3879364905738395079
-    second: spritesheet_2_19
+      213: 21300038
+    second: Unity_MC_render_idle_19
   - first:
-      213: 1822403349918308376
-    second: spritesheet_2_20
+      213: 21300040
+    second: Unity_MC_render_idle_20
   - first:
-      213: -1584016898556111026
-    second: spritesheet_2_21
+      213: 21300042
+    second: Unity_MC_render_idle_21
   - first:
-      213: -7714713428465645256
-    second: spritesheet_2_22
+      213: 21300044
+    second: Unity_MC_render_idle_22
   - first:
-      213: 8257875754961214822
-    second: spritesheet_2_23
+      213: 21300046
+    second: Unity_MC_render_idle_23
   - first:
-      213: 4271065831418628320
-    second: spritesheet_2_24
+      213: 21300048
+    second: Unity_MC_render_idle_24
   - first:
-      213: -311483218838270405
-    second: spritesheet_2_25
+      213: 21300050
+    second: Unity_MC_render_idle_25
   - first:
-      213: -7916955099504360590
-    second: spritesheet_2_26
+      213: 21300052
+    second: Unity_MC_render_idle_26
   - first:
-      213: 2044539080368523981
-    second: spritesheet_2_27
+      213: 21300054
+    second: Unity_MC_render_idle_27
   - first:
-      213: -2160216222771865963
-    second: spritesheet_2_28
+      213: 21300056
+    second: Unity_MC_render_idle_28
   - first:
-      213: 8035535189582012447
-    second: spritesheet_2_29
+      213: 21300058
+    second: Unity_MC_render_idle_29
   - first:
-      213: 5983638724851886665
-    second: spritesheet_2_30
+      213: 21300060
+    second: Unity_MC_render_idle_30
   - first:
-      213: 4014612780920121357
-    second: spritesheet_2_31
+      213: 21300062
+    second: Unity_MC_render_idle_31
   - first:
-      213: -2785177004673182278
-    second: spritesheet_2_32
+      213: 21300064
+    second: Unity_MC_render_idle_32
   - first:
-      213: 7724402220997262064
-    second: spritesheet_2_33
+      213: 21300066
+    second: Unity_MC_render_idle_33
   - first:
-      213: 8165316572449679646
-    second: NPC2_0
+      213: 21300068
+    second: Unity_MC_render_idle_34
   - first:
-      213: 2016881267772781168
-    second: NPC2_1
+      213: 21300070
+    second: Unity_MC_render_idle_35
   - first:
-      213: 3932098128798365901
-    second: NPC2_2
+      213: 21300072
+    second: Unity_MC_render_idle_36
   - first:
-      213: -2801219269605778750
-    second: NPC2_3
-  - first:
-      213: 5785132416051569076
-    second: NPC2_4
-  - first:
-      213: -2345829542223296615
-    second: NPC2_5
-  - first:
-      213: -4120732287326633890
-    second: NPC2_6
-  - first:
-      213: -2171752600040324357
-    second: NPC2_7
-  - first:
-      213: -8498436822960960500
-    second: NPC2_8
-  - first:
-      213: 867221994781848831
-    second: NPC2_9
-  - first:
-      213: -8976211396828273770
-    second: NPC2_10
-  - first:
-      213: 3904487828810970233
-    second: NPC2_11
-  - first:
-      213: -2335364623029136550
-    second: NPC2_12
-  - first:
-      213: 1774240299935240085
-    second: NPC2_13
-  - first:
-      213: 9166928070962056682
-    second: NPC2_14
-  - first:
-      213: -8189651129027683528
-    second: NPC2_15
-  - first:
-      213: -3793392295470760685
-    second: NPC2_16
-  - first:
-      213: 3401986078717755788
-    second: NPC2_17
-  - first:
-      213: 1657975964512807576
-    second: NPC2_18
-  - first:
-      213: -7226865102352480249
-    second: NPC2_19
-  - first:
-      213: -4414200203252593942
-    second: NPC2_20
-  - first:
-      213: 7667019683992292316
-    second: NPC2_21
-  - first:
-      213: 203110289285186413
-    second: NPC2_22
-  - first:
-      213: -4414388413010129654
-    second: NPC2_23
-  - first:
-      213: -997769136778971141
-    second: NPC2_24
-  - first:
-      213: -5349495664743791239
-    second: NPC2_25
-  - first:
-      213: 2430944726755175707
-    second: NPC2_26
-  - first:
-      213: -7384485101307127198
-    second: NPC2_27
-  - first:
-      213: -2001823144306319575
-    second: NPC2_28
-  - first:
-      213: -5119427128005252295
-    second: NPC2_29
-  - first:
-      213: 180742641035189201
-    second: NPC2_30
-  - first:
-      213: -8678543134251304730
-    second: NPC2_31
-  - first:
-      213: -555476368143147081
-    second: NPC2_32
-  - first:
-      213: 5040750725720694024
-    second: NPC2_33
-  - first:
-      213: 6745830718839631445
-    second: NPC2_34
-  - first:
-      213: 2059513073440549089
-    second: NPC2_35
+      213: 21300074
+    second: Unity_MC_render_idle_37
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -242,17 +146,17 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: -1
-    aniso: 1
+    aniso: -1
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -267,748 +171,840 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
-    buildTarget: Windows Store Apps
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NPC2_0
+      name: Unity_MC_render_idle_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 2510
-        width: 502
-        height: 502
+        y: 630
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1929733928015170800000000000000
-      internalID: 8165316572449679646
+      spriteID: eb63f30536c824e5b80d5ad208219808
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_1
+      name: Unity_MC_render_idle_1
       rect:
         serializedVersion: 2
-        x: 502
-        y: 2510
-        width: 502
-        height: 502
+        x: 128
+        y: 630
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0727cbfb3d66dfb10800000000000000
-      internalID: 2016881267772781168
+      spriteID: 3bca41dadbd4e48d4b962bd6405c428b
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_2
+      name: Unity_MC_render_idle_2
       rect:
         serializedVersion: 2
-        x: 1004
-        y: 2510
-        width: 502
-        height: 502
+        x: 256
+        y: 630
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc8310d3a6e919630800000000000000
-      internalID: 3932098128798365901
+      spriteID: 976a5e5df8f6d4544b0823d3a424e0b3
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_3
+      name: Unity_MC_render_idle_3
       rect:
         serializedVersion: 2
-        x: 1506
-        y: 2510
-        width: 502
-        height: 502
+        x: 384
+        y: 630
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ca1b217ae11029d0800000000000000
-      internalID: -2801219269605778750
+      spriteID: d3288a173cd2243ba9100631c510defa
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_4
+      name: Unity_MC_render_idle_4
       rect:
         serializedVersion: 2
-        x: 2008
-        y: 2510
-        width: 502
-        height: 502
+        x: 512
+        y: 630
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b1e95d084be84050800000000000000
-      internalID: 5785132416051569076
+      spriteID: 8012e8f2939ba46fc8378adbac48ffa0
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_5
+      name: Unity_MC_render_idle_5
       rect:
         serializedVersion: 2
-        x: 2510
-        y: 2510
-        width: 502
-        height: 502
+        x: 640
+        y: 630
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 997c928c570f17fd0800000000000000
-      internalID: -2345829542223296615
+      spriteID: 31536f03f3fa44f44a5cce968e4faef6
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_6
+      name: Unity_MC_render_idle_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2008
-        width: 502
-        height: 502
+        x: 768
+        y: 630
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e50c96731d730d6c0800000000000000
-      internalID: -4120732287326633890
+      spriteID: 2e87866ef58c9467eabeaadd9f172498
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_7
-      rect:
-        serializedVersion: 2
-        x: 502
-        y: 2008
-        width: 502
-        height: 502
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf2c09644826cd1e0800000000000000
-      internalID: -2171752600040324357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC2_8
-      rect:
-        serializedVersion: 2
-        x: 1004
-        y: 2008
-        width: 502
-        height: 502
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0c00557cbc7f0a80800000000000000
-      internalID: -8498436822960960500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC2_9
-      rect:
-        serializedVersion: 2
-        x: 1506
-        y: 2008
-        width: 502
-        height: 502
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff4b06c3fcdf80c00800000000000000
-      internalID: 867221994781848831
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC2_10
-      rect:
-        serializedVersion: 2
-        x: 2008
-        y: 2008
-        width: 502
-        height: 502
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 693ec37ea471e6380800000000000000
-      internalID: -8976211396828273770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC2_11
-      rect:
-        serializedVersion: 2
-        x: 2510
-        y: 2008
-        width: 502
-        height: 502
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9743d125ef68f2630800000000000000
-      internalID: 3904487828810970233
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC2_12
+      name: Unity_MC_render_idle_7
       rect:
         serializedVersion: 2
         x: 0
-        y: 1506
-        width: 502
-        height: 502
+        y: 504
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a539557af3e179fd0800000000000000
-      internalID: -2335364623029136550
+      spriteID: a4596c3566bd54803a57d7ca1ed1a30c
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_13
+      name: Unity_MC_render_idle_8
       rect:
         serializedVersion: 2
-        x: 502
-        y: 1506
-        width: 502
-        height: 502
+        x: 128
+        y: 504
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59f82d7072e5f9810800000000000000
-      internalID: 1774240299935240085
+      spriteID: a4666df5cbad34881ab514d7bc44bf8f
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_14
+      name: Unity_MC_render_idle_9
       rect:
         serializedVersion: 2
-        x: 1004
-        y: 1506
-        width: 502
-        height: 502
+        x: 256
+        y: 504
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aed00471388773f70800000000000000
-      internalID: 9166928070962056682
+      spriteID: 08485a536f86647a99ef3e7e30083668
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_15
+      name: Unity_MC_render_idle_10
       rect:
         serializedVersion: 2
-        x: 1506
-        y: 1506
-        width: 502
-        height: 502
+        x: 384
+        y: 504
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83b9de350b3885e80800000000000000
-      internalID: -8189651129027683528
+      spriteID: 6bab8b10b323d46b3a7e9b2df85d4163
+      internalID: 21300020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_16
+      name: Unity_MC_render_idle_11
       rect:
         serializedVersion: 2
-        x: 2008
-        y: 1506
-        width: 502
-        height: 502
+        x: 512
+        y: 504
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31df2c63ec92b5bc0800000000000000
-      internalID: -3793392295470760685
+      spriteID: 4fe1822f10464429593ed9eccdebf191
+      internalID: 21300022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_17
+      name: Unity_MC_render_idle_12
       rect:
         serializedVersion: 2
-        x: 2510
-        y: 1506
-        width: 502
-        height: 502
+        x: 640
+        y: 504
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c81cbc86058463f20800000000000000
-      internalID: 3401986078717755788
+      spriteID: 2ae31a4d2fb8245cc8de439b64063dfc
+      internalID: 21300024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_18
+      name: Unity_MC_render_idle_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1004
-        width: 502
-        height: 502
+        x: 768
+        y: 504
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89aebeafa50520710800000000000000
-      internalID: 1657975964512807576
+      spriteID: bff065404a91e4929869abf818af751d
+      internalID: 21300026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_19
-      rect:
-        serializedVersion: 2
-        x: 502
-        y: 1004
-        width: 502
-        height: 502
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7080d9e9a7405bb90800000000000000
-      internalID: -7226865102352480249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC2_20
-      rect:
-        serializedVersion: 2
-        x: 1004
-        y: 1004
-        width: 502
-        height: 502
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aea0ca57d4c9db2c0800000000000000
-      internalID: -4414200203252593942
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC2_21
-      rect:
-        serializedVersion: 2
-        x: 1506
-        y: 1004
-        width: 502
-        height: 502
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cdbc94ee7c9b66a60800000000000000
-      internalID: 7667019683992292316
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC2_22
-      rect:
-        serializedVersion: 2
-        x: 2008
-        y: 1004
-        width: 502
-        height: 502
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6302136bb791d200800000000000000
-      internalID: 203110289285186413
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC2_23
-      rect:
-        serializedVersion: 2
-        x: 2510
-        y: 1004
-        width: 502
-        height: 502
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0d4ee57021fcb2c0800000000000000
-      internalID: -4414388413010129654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC2_24
+      name: Unity_MC_render_idle_14
       rect:
         serializedVersion: 2
         x: 0
-        y: 502
-        width: 502
-        height: 502
+        y: 378
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf7f07aa1463722f0800000000000000
-      internalID: -997769136778971141
+      spriteID: 0c772510232624b339ce7ec40b19bdc8
+      internalID: 21300028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_25
+      name: Unity_MC_render_idle_15
       rect:
         serializedVersion: 2
-        x: 502
-        y: 502
-        width: 502
-        height: 502
+        x: 128
+        y: 378
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97544772906c2c5b0800000000000000
-      internalID: -5349495664743791239
+      spriteID: c6b3fe70cdb5846af941c19b979f43e7
+      internalID: 21300030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_26
+      name: Unity_MC_render_idle_16
       rect:
         serializedVersion: 2
-        x: 1004
-        y: 502
-        width: 502
-        height: 502
+        x: 256
+        y: 378
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1de9da69537cb120800000000000000
-      internalID: 2430944726755175707
+      spriteID: d35b47ea2f812447aa99e0dcde1e674d
+      internalID: 21300032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_27
+      name: Unity_MC_render_idle_17
       rect:
         serializedVersion: 2
-        x: 1506
-        y: 502
-        width: 502
-        height: 502
+        x: 384
+        y: 378
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26a9c6fcce9058990800000000000000
-      internalID: -7384485101307127198
+      spriteID: 7756de5797521429295d351a561e518a
+      internalID: 21300034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_28
+      name: Unity_MC_render_idle_18
       rect:
         serializedVersion: 2
-        x: 2008
-        y: 502
-        width: 502
-        height: 502
+        x: 512
+        y: 378
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92f5774d4781834e0800000000000000
-      internalID: -2001823144306319575
+      spriteID: bc503220c80ab45188d5cf2445e79fb4
+      internalID: 21300036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_29
+      name: Unity_MC_render_idle_19
       rect:
         serializedVersion: 2
-        x: 2510
-        y: 502
-        width: 502
-        height: 502
+        x: 640
+        y: 378
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93bafb5a62424f8b0800000000000000
-      internalID: -5119427128005252295
+      spriteID: 0d4d6ffee60e54a55873356a4ddd99e8
+      internalID: 21300038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_30
+      name: Unity_MC_render_idle_20
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 378
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6312069257f864c5990cfc7fbbfef8cf
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity_MC_render_idle_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d145d2675ddab4335961b490522f4523
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity_MC_render_idle_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 252
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb249c78ca3f5415b9c5aa38ea580ea8
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity_MC_render_idle_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 252
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471ae53082571474d85eeb21df722fd5
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity_MC_render_idle_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 252
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc645c8155014ebe8fe03f757240315
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity_MC_render_idle_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 252
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d5300aa30484b7e857873555835bb1
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity_MC_render_idle_26
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 252
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5137597506da40a38ef8998efdf7179
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity_MC_render_idle_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 252
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75f91af1ceaf4b1eb0af4b9345e71f7
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity_MC_render_idle_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3466b2945db64e46a5966a60f6cfeae
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity_MC_render_idle_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 126
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886d072ea7d3a4348b68a6140fd242c0
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity_MC_render_idle_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 126
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b9a1c2f12474e4a9fd850eaf048942
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity_MC_render_idle_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 126
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d582248e8445e41a48f641272ba7ce66
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity_MC_render_idle_32
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 126
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7eb1401a3114bf09d890d362f84ef7
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity_MC_render_idle_33
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 126
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd19b197bd0cf45efb0181a0503e0f48
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity_MC_render_idle_34
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 126
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7842466541b554c7b81ae8e2a5f24ed2
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unity_MC_render_idle_35
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 502
-        height: 502
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1db1ba27970228200800000000000000
-      internalID: 180742641035189201
+      spriteID: b01b9eaaa46394308a8e6d27888e193c
+      internalID: 21300070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_31
+      name: Unity_MC_render_idle_36
       rect:
         serializedVersion: 2
-        x: 502
+        x: 128
         y: 0
-        width: 502
-        height: 502
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e8bb03100f9f8780800000000000000
-      internalID: -8678543134251304730
+      spriteID: c959b394c50844d27a35d19b95647d6b
+      internalID: 21300072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC2_32
+      name: Unity_MC_render_idle_37
       rect:
         serializedVersion: 2
-        x: 1004
+        x: 256
         y: 0
-        width: 502
-        height: 502
+        width: 128
+        height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bf14bbaf2d8a48f0800000000000000
-      internalID: -555476368143147081
+      spriteID: ebdb5426d3ee3478eaba1e411bfcb591
+      internalID: 21300074
       vertices: []
       indices: 
       edges: []
@@ -1016,7 +1012,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: beb6acf20f7a5fa4d9c2b34c5f21954a
+    spriteID: 12e81d173ffc34fa18c0643c0d0b03ff
     internalID: 0
     vertices: []
     indices: 
