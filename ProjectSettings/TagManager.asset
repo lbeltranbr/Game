@@ -44,6 +44,24 @@ TagManager:
   - name: Background
     uniqueID: 3469021019
     locked: 0
+  - name: Wall1
+    uniqueID: 3944511029
+    locked: 0
+  - name: Wall2
+    uniqueID: 2498423661
+    locked: 0
+  - name: Spikes
+    uniqueID: 4277479833
+    locked: 0
+  - name: Floor
+    uniqueID: 2119643653
+    locked: 0
+  - name: Crack
+    uniqueID: 2008510005
+    locked: 0
+  - name: B_lamp
+    uniqueID: 2317975825
+    locked: 0
   - name: B_player
     uniqueID: 2204928955
     locked: 0
