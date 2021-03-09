@@ -1,7 +1,9 @@
 
-Last Update: 15/02/2021
+Last Update: 09/03/2021
 
-- Basic movement, not completely done
-- Free movement scene
-- Platform Scene
-- Not using our own assets
+- Basic movement (walking and idle)
+- Forest Scene
+- Cave Scene
+  * Following hands
+  * Lanterns
+  * 2D Light
