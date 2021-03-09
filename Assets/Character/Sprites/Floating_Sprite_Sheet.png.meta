@@ -1,96 +1,93 @@
 fileFormatVersion: 2
-guid: 225a1eacac9dc41ae9a4d6adf7df8d40
+guid: 974a45c9691280e4c990e812b60bfb9b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
-    second: Unity_MC_render_run_0
+      213: 213789006564945713
+    second: Floating_Sprite_Sheet_0
   - first:
-      213: 21300002
-    second: Unity_MC_render_run_1
+      213: -6865015099836651389
+    second: Floating_Sprite_Sheet_1
   - first:
-      213: 21300004
-    second: Unity_MC_render_run_2
+      213: -7031038688820471886
+    second: Floating_Sprite_Sheet_2
   - first:
-      213: 21300006
-    second: Unity_MC_render_run_3
+      213: -792747331410180634
+    second: Floating_Sprite_Sheet_3
   - first:
-      213: 21300008
-    second: Unity_MC_render_run_4
+      213: 628320355940940310
+    second: Floating_Sprite_Sheet_4
   - first:
-      213: 21300010
-    second: Unity_MC_render_run_5
+      213: 3065766619814871466
+    second: Floating_Sprite_Sheet_5
   - first:
-      213: 21300012
-    second: Unity_MC_render_run_6
+      213: 5652604991009199080
+    second: Floating_Sprite_Sheet_6
   - first:
-      213: 21300014
-    second: Unity_MC_render_run_7
+      213: 7922428355395247552
+    second: Floating_Sprite_Sheet_7
   - first:
-      213: 21300016
-    second: Unity_MC_render_run_8
+      213: 3744809066904867164
+    second: Floating_Sprite_Sheet_8
   - first:
-      213: 21300018
-    second: Unity_MC_render_run_9
+      213: -4704249032315700617
+    second: Floating_Sprite_Sheet_9
   - first:
-      213: 21300020
-    second: Unity_MC_render_run_10
+      213: -2753314898476620868
+    second: Floating_Sprite_Sheet_10
   - first:
-      213: 21300022
-    second: Unity_MC_render_run_11
+      213: -1648078767338349859
+    second: Floating_Sprite_Sheet_11
   - first:
-      213: 21300024
-    second: Unity_MC_render_run_12
+      213: -4120291753279962313
+    second: Floating_Sprite_Sheet_12
   - first:
-      213: 21300026
-    second: Unity_MC_render_run_13
+      213: -54413629853885654
+    second: Floating_Sprite_Sheet_13
   - first:
-      213: 21300028
-    second: Unity_MC_render_run_14
+      213: 7969605565727799495
+    second: Floating_Sprite_Sheet_14
   - first:
-      213: 21300030
-    second: Unity_MC_render_run_15
+      213: -6080418172054571911
+    second: Floating_Sprite_Sheet_15
   - first:
-      213: 21300032
-    second: Unity_MC_render_run_16
+      213: -2931374742525137627
+    second: Floating_Sprite_Sheet_16
   - first:
-      213: 21300034
-    second: Unity_MC_render_run_17
+      213: -4317763047633340214
+    second: Floating_Sprite_Sheet_17
   - first:
-      213: 21300036
-    second: Unity_MC_render_run_18
+      213: -7914927345378871722
+    second: Floating_Sprite_Sheet_18
   - first:
-      213: 21300038
-    second: Unity_MC_render_run_19
+      213: -8169006354675816130
+    second: Floating_Sprite_Sheet_19
   - first:
-      213: 21300040
-    second: Unity_MC_render_run_20
+      213: 8964815128015233478
+    second: Floating_Sprite_Sheet_20
   - first:
-      213: 21300042
-    second: Unity_MC_render_run_21
+      213: -3299940525695362897
+    second: Floating_Sprite_Sheet_21
   - first:
-      213: 21300044
-    second: Unity_MC_render_run_22
+      213: -8856764212196693611
+    second: Floating_Sprite_Sheet_22
   - first:
-      213: 21300046
-    second: Unity_MC_render_run_23
+      213: -4497243066682265616
+    second: Floating_Sprite_Sheet_23
   - first:
-      213: 21300048
-    second: Unity_MC_render_run_24
+      213: 6127577541812366829
+    second: Floating_Sprite_Sheet_24
   - first:
-      213: 21300050
-    second: Unity_MC_render_run_25
+      213: 937074716896625012
+    second: Floating_Sprite_Sheet_25
   - first:
-      213: 21300052
-    second: Unity_MC_render_run_26
+      213: -7385155725890358355
+    second: Floating_Sprite_Sheet_26
   - first:
-      213: 21300054
-    second: Unity_MC_render_run_27
-  - first:
-      213: 21300056
-    second: Unity_MC_render_run_28
+      213: -5026712858462142370
+    second: Floating_Sprite_Sheet_27
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -123,13 +120,13 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -144,6 +141,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -156,7 +154,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -168,9 +166,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -180,18 +178,30 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Unity_MC_render_run_0
+      name: Floating_Sprite_Sheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 504
-        width: 128
-        height: 126
+        y: 3150
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,20 +209,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7379d3b9d156c45449ed8c82880836f6
-      internalID: 21300000
+      spriteID: 13fef2108f787f200800000000000000
+      internalID: 213789006564945713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_1
+      name: Floating_Sprite_Sheet_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 504
-        width: 128
-        height: 126
+        x: 896
+        y: 3150
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,20 +230,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d4bc77219f9c45aabb3b2b0b084b352
-      internalID: 21300002
+      spriteID: 3882b8c93219ab0a0800000000000000
+      internalID: -6865015099836651389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_2
+      name: Floating_Sprite_Sheet_2
       rect:
         serializedVersion: 2
-        x: 256
-        y: 504
-        width: 128
-        height: 126
+        x: 1792
+        y: 3150
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,20 +251,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05d5e315b3c6e4fa38ac35342483ab67
-      internalID: 21300004
+      spriteID: 2b7d3d6809bbc6e90800000000000000
+      internalID: -7031038688820471886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_3
+      name: Floating_Sprite_Sheet_3
       rect:
         serializedVersion: 2
-        x: 384
-        y: 504
-        width: 128
-        height: 126
+        x: 2688
+        y: 3150
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,20 +272,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c8241695f8d346b48019075e5bbd117
-      internalID: 21300006
+      spriteID: 6e548a290889ff4f0800000000000000
+      internalID: -792747331410180634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_4
+      name: Floating_Sprite_Sheet_4
       rect:
         serializedVersion: 2
-        x: 512
-        y: 504
-        width: 128
-        height: 126
+        x: 3584
+        y: 3150
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,41 +293,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2eeed219953714de8b1eb5bd18058975
-      internalID: 21300008
+      spriteID: 61ab105e80e38b800800000000000000
+      internalID: 628320355940940310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_5
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 504
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0ac83442e72f45219c5b7bca4e91cc3
-      internalID: 21300010
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_run_6
+      name: Floating_Sprite_Sheet_5
       rect:
         serializedVersion: 2
         x: 0
-        y: 378
-        width: 128
-        height: 126
+        y: 2520
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,20 +314,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74efca5ba1c82405d848e3c55607524b
-      internalID: 21300012
+      spriteID: aa1c0526f7acb8a20800000000000000
+      internalID: 3065766619814871466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_7
+      name: Floating_Sprite_Sheet_6
       rect:
         serializedVersion: 2
-        x: 128
-        y: 378
-        width: 128
-        height: 126
+        x: 896
+        y: 2520
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,20 +335,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85d42e67e3a5b4ba8b83246db3878606
-      internalID: 21300014
+      spriteID: 8e314b06a46127e40800000000000000
+      internalID: 5652604991009199080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_8
+      name: Floating_Sprite_Sheet_7
       rect:
         serializedVersion: 2
-        x: 256
-        y: 378
-        width: 128
-        height: 126
+        x: 1792
+        y: 2520
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -367,20 +356,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 282fc6acd92b3448794283f36f9ebee5
-      internalID: 21300016
+      spriteID: 0cdd0d94d9e12fd60800000000000000
+      internalID: 7922428355395247552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_9
+      name: Floating_Sprite_Sheet_8
       rect:
         serializedVersion: 2
-        x: 384
-        y: 378
-        width: 128
-        height: 126
+        x: 2688
+        y: 2520
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -388,20 +377,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f72cc7c16bd647288902c8c250edb1e
-      internalID: 21300018
+      spriteID: c51d688610c38f330800000000000000
+      internalID: 3744809066904867164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_10
+      name: Floating_Sprite_Sheet_9
       rect:
         serializedVersion: 2
-        x: 512
-        y: 378
-        width: 128
-        height: 126
+        x: 3584
+        y: 2520
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,41 +398,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64feab14522a9415cab774616fa740e6
-      internalID: 21300020
+      spriteID: 77af8d5ed6627beb0800000000000000
+      internalID: -4704249032315700617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_11
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 378
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b97eb8ac25ff431c9538cde784dca4c
-      internalID: 21300022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_run_12
+      name: Floating_Sprite_Sheet_10
       rect:
         serializedVersion: 2
         x: 0
-        y: 252
-        width: 128
-        height: 126
+        y: 1890
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -451,20 +419,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dc53c7dc3b9e4371b70b07ef2793121
-      internalID: 21300024
+      spriteID: cb3a28100b24ac9d0800000000000000
+      internalID: -2753314898476620868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_13
+      name: Floating_Sprite_Sheet_11
       rect:
         serializedVersion: 2
-        x: 128
-        y: 252
-        width: 128
-        height: 126
+        x: 896
+        y: 1890
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -472,20 +440,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b346d64e2ed914c2486ae5f43c1f19f1
-      internalID: 21300026
+      spriteID: dda1feec719d029e0800000000000000
+      internalID: -1648078767338349859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_14
+      name: Floating_Sprite_Sheet_12
       rect:
         serializedVersion: 2
-        x: 256
-        y: 252
-        width: 128
-        height: 126
+        x: 1792
+        y: 1890
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -493,20 +461,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d14bef02420c426c87e4bbb80efa338
-      internalID: 21300028
+      spriteID: 733c6ca0b78c1d6c0800000000000000
+      internalID: -4120291753279962313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_15
+      name: Floating_Sprite_Sheet_13
       rect:
         serializedVersion: 2
-        x: 384
-        y: 252
-        width: 128
-        height: 126
+        x: 2688
+        y: 1890
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -514,20 +482,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57ec161f4e02a4e079e73c31c340bc69
-      internalID: 21300030
+      spriteID: a2b9e99871fae3ff0800000000000000
+      internalID: -54413629853885654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_16
+      name: Floating_Sprite_Sheet_14
       rect:
         serializedVersion: 2
-        x: 512
-        y: 252
-        width: 128
-        height: 126
+        x: 3584
+        y: 1890
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -535,41 +503,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f5737caf67a44dcb839074b0c3188f5
-      internalID: 21300032
+      spriteID: 7c87e29890ab99e60800000000000000
+      internalID: 7969605565727799495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_17
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9ab731b9fbc040e6afb712a94890ba3
-      internalID: 21300034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_run_18
+      name: Floating_Sprite_Sheet_15
       rect:
         serializedVersion: 2
         x: 0
-        y: 126
-        width: 128
-        height: 126
+        y: 1260
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -577,20 +524,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c42fc233fb43749d399f557acca3242c
-      internalID: 21300036
+      spriteID: 9747bd053e30e9ba0800000000000000
+      internalID: -6080418172054571911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_19
+      name: Floating_Sprite_Sheet_16
       rect:
         serializedVersion: 2
-        x: 128
-        y: 126
-        width: 128
-        height: 126
+        x: 896
+        y: 1260
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -598,20 +545,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4124464b66b5b4ceb81ad0e9c6b57f47
-      internalID: 21300038
+      spriteID: 52dac38e33aa157d0800000000000000
+      internalID: -2931374742525137627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_20
+      name: Floating_Sprite_Sheet_17
       rect:
         serializedVersion: 2
-        x: 256
-        y: 126
-        width: 128
-        height: 126
+        x: 1792
+        y: 1260
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -619,20 +566,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3a8c463863f747b89582bb6add314e2
-      internalID: 21300040
+      spriteID: ac8b18972693414c0800000000000000
+      internalID: -4317763047633340214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_21
+      name: Floating_Sprite_Sheet_18
       rect:
         serializedVersion: 2
-        x: 384
-        y: 126
-        width: 128
-        height: 126
+        x: 2688
+        y: 1260
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -640,20 +587,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5f3faa117c8345a8b2f79ce60fc1c8d
-      internalID: 21300042
+      spriteID: 656baa3b387882290800000000000000
+      internalID: -7914927345378871722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_22
+      name: Floating_Sprite_Sheet_19
       rect:
         serializedVersion: 2
-        x: 512
-        y: 126
-        width: 128
-        height: 126
+        x: 3584
+        y: 1260
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -661,20 +608,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20e29e49562f14d5a9f4ee509e6b5120
-      internalID: 21300044
+      spriteID: e39a3ad600cd1ae80800000000000000
+      internalID: -8169006354675816130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_23
+      name: Floating_Sprite_Sheet_20
       rect:
         serializedVersion: 2
-        x: 640
-        y: 126
-        width: 128
-        height: 126
+        x: 0
+        y: 630
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -682,20 +629,104 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 469f80ef882c248dcb3c26c80537c32e
-      internalID: 21300046
+      spriteID: 6c1656e7cdb696c70800000000000000
+      internalID: 8964815128015233478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_24
+      name: Floating_Sprite_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 630
+        width: 896
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8130263914432d0800000000000000
+      internalID: -3299940525695362897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floating_Sprite_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 630
+        width: 896
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599af98cfd3761580800000000000000
+      internalID: -8856764212196693611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floating_Sprite_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 630
+        width: 896
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffa0dd12459691c0800000000000000
+      internalID: -4497243066682265616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floating_Sprite_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 630
+        width: 896
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded23691f47890550800000000000000
+      internalID: 6127577541812366829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floating_Sprite_Sheet_25
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 128
-        height: 126
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -703,20 +734,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56e44b03a9831474badcf5f5d18356cf
-      internalID: 21300048
+      spriteID: 4718f9c7d78210d00800000000000000
+      internalID: 937074716896625012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_25
+      name: Floating_Sprite_Sheet_26
       rect:
         serializedVersion: 2
-        x: 128
+        x: 896
         y: 0
-        width: 128
-        height: 126
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -724,20 +755,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3656c077d53814433ba543194ed72507
-      internalID: 21300050
+      spriteID: da3fc5bdef7a28990800000000000000
+      internalID: -7385155725890358355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_run_26
+      name: Floating_Sprite_Sheet_27
       rect:
         serializedVersion: 2
-        x: 256
+        x: 1792
         y: 0
-        width: 128
-        height: 126
+        width: 896
+        height: 630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,50 +776,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b010ab404cff04472844e7902e544ec3
-      internalID: 21300052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_run_27
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51d59629d715d40a4b01e2aba8228b0a
-      internalID: 21300054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Unity_MC_render_run_28
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c47d5e7f55214bb39456db2f5061c35
-      internalID: 21300056
+      spriteID: e50c973b9478d3ab0800000000000000
+      internalID: -5026712858462142370
       vertices: []
       indices: 
       edges: []
@@ -796,7 +785,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5f15eb5ece9ed4536950ee05ce2dc0ea
+    spriteID: 45fe795f71eb4114a8849141bf101abc
     internalID: 0
     vertices: []
     indices: 

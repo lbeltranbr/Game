@@ -11,7 +11,6 @@ public class SimpleMovement : MonoBehaviour
     public float JumpForce;
 
     private float GroundRad = .1f;
-    private float CeilingRad = .2f;
     private bool m_Grounded = true;
     private bool jump = false;
     private Rigidbody2D m_Rigidbody2D;
