@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cave.unity
     guid: 4a6609267fcd30e45bbd6916019eb908
+  - enabled: 1
+    path: Assets/Transitions/AnimCreation.unity
+    guid: c40e1397423bc1845aa3bf612c87693b
   m_configObjects: {}

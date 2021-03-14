@@ -9,18 +9,18 @@ public class HandsMovement : MonoBehaviour
     public float add_factor;
     public Transform player;
     public GameObject light;
-    
+    public Vector3 startPosPlayer;
+    public Animator animation;
 
 
     private Vector3 startPos;
-    private Vector3 startPosPlayer;
-
+    private bool out_anim = false;
     private float startSpeed;
     private int state;
     private void Awake()
     {
         startPos = transform.position;
-        startPosPlayer = player.position;
+       // startPosPlayer = player.position;
         startSpeed = speed;
         state = 0;
     }
@@ -38,12 +38,11 @@ public class HandsMovement : MonoBehaviour
             case 0: //forward
                 transform.position = transform.position + horizontal * Time.deltaTime * speed;
                 speed += add_factor;
+                out_anim = false;
                 break;
             case 1: //reset
-                ResetHands();
-                ResetPlayer();
-                ResetLights();
-                state = 0;
+                StartCoroutine("playAnim");
+               
                 break;
             case 2: //Backwards Left
                 transform.position = transform.position - horizontal * Time.deltaTime * speed*2;
@@ -80,6 +79,7 @@ public class HandsMovement : MonoBehaviour
     {
         transform.position = startPos;
         speed = startSpeed;
+        gameObject.SetActive(false);
 
     }
     private void ResetPlayer()
@@ -92,4 +92,23 @@ public class HandsMovement : MonoBehaviour
         light.SetActive(false);
 
     }
+    IEnumerator playAnim()
+    {
+        if (!out_anim)
+        {
+            animation.SetTrigger("out");
+            out_anim = true;
+        }
+
+        yield return new WaitForSeconds(1f);
+
+       
+        ResetPlayer();
+        ResetLights();
+        ResetHands();
+        state = 0;
+        animation.SetTrigger("in");
+
+    }
+  
 }
