@@ -7,11 +7,13 @@ public class DialogueManager : MonoBehaviour
 {
 	public Text nameText;
 	public Text dialogueText;
+	public GameObject dialogue_canvas;
+	public GameObject cont_button;
 
 	//public Animator animator;
 
 	private Queue<string> sentences;
-
+	
 	// Use this for initialization
 	void Start()
 	{
@@ -38,7 +40,7 @@ public class DialogueManager : MonoBehaviour
 	{
 		if (sentences.Count == 0)
 		{
-			//EndDialogue();
+			EndDialogue();
 			return;
 		}
 
@@ -49,16 +51,19 @@ public class DialogueManager : MonoBehaviour
 
 	IEnumerator TypeSentence(string sentence)
 	{
+		cont_button.GetComponent<AudioSource>().Play();
 		dialogueText.text = "";
 		foreach (char letter in sentence.ToCharArray())
 		{
 			dialogueText.text += letter;
 			yield return null;
 		}
+		cont_button.GetComponent<AudioSource>().Stop();
 	}
 
-	/*void EndDialogue()
+	void EndDialogue()
 	{
-		animator.SetBool("IsOpen", false);
-	}*/
+		dialogue_canvas.SetActive(false);
+
+	}
 }

@@ -8,6 +8,8 @@ TagManager:
   - collect
   - Left_hand
   - Up_hand
+  - NPC_tutorial
+  - NPC
   layers:
   - Default
   - TransparentFX
