@@ -1972,7 +1972,7 @@ MonoBehaviour:
   player: {fileID: 1518787696}
   light: {fileID: 2042529623}
   startPosPlayer: {x: 22.6, y: -4, z: 1}
-  animation: {fileID: 0}
+  animation: {fileID: 1281328699}
 --- !u!1 &523980361
 GameObject:
   m_ObjectHideFlags: 0
@@ -8887,7 +8887,7 @@ MonoBehaviour:
   player: {fileID: 1518787696}
   light: {fileID: 1142105436}
   startPosPlayer: {x: -13.55, y: -4, z: 1}
-  animation: {fileID: 0}
+  animation: {fileID: 1281328699}
 --- !u!58 &1747264840
 CircleCollider2D:
   m_ObjectHideFlags: 0
