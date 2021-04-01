@@ -1,0 +1,1592 @@
+fileFormatVersion: 2
+guid: e848463b0fb7b3e44ba14e6d20146838
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7366088826966023335
+    second: BigNPC_0
+  - first:
+      213: 6380586744099946599
+    second: BigNPC_1
+  - first:
+      213: -8359973683562459141
+    second: BigNPC_2
+  - first:
+      213: 4928364475553848126
+    second: BigNPC_3
+  - first:
+      213: -1832663240090096436
+    second: BigNPC_4
+  - first:
+      213: 6493739686440396392
+    second: BigNPC_5
+  - first:
+      213: 4383687595660206878
+    second: BigNPC_6
+  - first:
+      213: 2347816302408276229
+    second: BigNPC_7
+  - first:
+      213: 8353524386965470592
+    second: BigNPC_8
+  - first:
+      213: -3344097294599694702
+    second: BigNPC_9
+  - first:
+      213: 3067658488635080340
+    second: BigNPC_10
+  - first:
+      213: 509147861902271684
+    second: BigNPC_11
+  - first:
+      213: 148015166845900888
+    second: BigNPC_12
+  - first:
+      213: -7313488159033496320
+    second: BigNPC_13
+  - first:
+      213: -5468033806470562465
+    second: BigNPC_14
+  - first:
+      213: 6518223862228674916
+    second: BigNPC_15
+  - first:
+      213: 3748083399754304094
+    second: BigNPC_16
+  - first:
+      213: -144957147548712066
+    second: BigNPC_17
+  - first:
+      213: -7828728946611441906
+    second: BigNPC_18
+  - first:
+      213: -8562862226564723906
+    second: BigNPC_19
+  - first:
+      213: -7446029082863837049
+    second: BigNPC_20
+  - first:
+      213: 8349226647054000035
+    second: BigNPC_21
+  - first:
+      213: -9110828141674200331
+    second: BigNPC_22
+  - first:
+      213: 1595815631171708485
+    second: BigNPC_23
+  - first:
+      213: -7241784381213012753
+    second: BigNPC_24
+  - first:
+      213: 848835062760634175
+    second: BigNPC_25
+  - first:
+      213: -1098585223836765339
+    second: BigNPC_26
+  - first:
+      213: 5702876971704084379
+    second: BigNPC_27
+  - first:
+      213: 1324090796772085942
+    second: BigNPC_28
+  - first:
+      213: -1809546505473333083
+    second: BigNPC_29
+  - first:
+      213: -4627923334776575272
+    second: BigNPC_30
+  - first:
+      213: -5715213779314047820
+    second: BigNPC_31
+  - first:
+      213: 744578865301629847
+    second: BigNPC_32
+  - first:
+      213: 2480558174338130691
+    second: BigNPC_33
+  - first:
+      213: -4969260648480894499
+    second: BigNPC_34
+  - first:
+      213: 4482859027485707276
+    second: BigNPC_35
+  - first:
+      213: -2396075915529334966
+    second: BigNPC_36
+  - first:
+      213: 6076302551850358469
+    second: BigNPC_37
+  - first:
+      213: -9126228875659695138
+    second: BigNPC_38
+  - first:
+      213: 3668215874742313096
+    second: BigNPC_39
+  - first:
+      213: 6456435465122803312
+    second: BigNPC_40
+  - first:
+      213: -337628380097865985
+    second: BigNPC_41
+  - first:
+      213: -826615608596277768
+    second: BigNPC_42
+  - first:
+      213: -3367110853352688038
+    second: BigNPC_43
+  - first:
+      213: -5172836366653099587
+    second: BigNPC_44
+  - first:
+      213: 614428385674040399
+    second: BigNPC_45
+  - first:
+      213: 4431965510487072148
+    second: BigNPC_46
+  - first:
+      213: 8569117810429196761
+    second: BigNPC_47
+  - first:
+      213: -8724277852356057311
+    second: BigNPC_48
+  - first:
+      213: 2650927951627853061
+    second: BigNPC_49
+  - first:
+      213: -7836981863960744354
+    second: BigNPC_50
+  - first:
+      213: -8140427882789864006
+    second: BigNPC_51
+  - first:
+      213: 4474400760619360384
+    second: BigNPC_52
+  - first:
+      213: 1170980922961585310
+    second: BigNPC_53
+  - first:
+      213: 3391003107081260922
+    second: BigNPC_54
+  - first:
+      213: 1902819124411579792
+    second: BigNPC_55
+  - first:
+      213: -1703490439303370459
+    second: BigNPC_56
+  - first:
+      213: -9061510812718200616
+    second: BigNPC_57
+  - first:
+      213: 2588772898180796266
+    second: BigNPC_58
+  - first:
+      213: -3738837687321388667
+    second: BigNPC_59
+  - first:
+      213: 8385923221680279984
+    second: BigNPC_60
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BigNPC_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7014
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac984bc2ca993660800000000000000
+      internalID: 7366088826966023335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_1
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 7014
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760c4a486d56c8850800000000000000
+      internalID: 6380586744099946599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_2
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 7014
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff45a35a386bfb80800000000000000
+      internalID: -8359973683562459141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_3
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 7014
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b9a010161156440800000000000000
+      internalID: 4928364475553848126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_4
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 7014
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc63853e721196e0800000000000000
+      internalID: -1832663240090096436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_5
+      rect:
+        serializedVersion: 2
+        x: 5010
+        y: 7014
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866e22ae6d56e1a50800000000000000
+      internalID: 6493739686440396392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_6
+      rect:
+        serializedVersion: 2
+        x: 6012
+        y: 7014
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13ec9974acf5dc30800000000000000
+      internalID: 4383687595660206878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_7
+      rect:
+        serializedVersion: 2
+        x: 7014
+        y: 7014
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5099aeedc7e159020800000000000000
+      internalID: 2347816302408276229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6012
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08db3abcb2eade370800000000000000
+      internalID: 8353524386965470592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_9
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 6012
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2965a057a316791d0800000000000000
+      internalID: -3344097294599694702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_10
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 6012
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e3e4b6423829a20800000000000000
+      internalID: 3067658488635080340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_11
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 6012
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4a5d6684bd01700800000000000000
+      internalID: 509147861902271684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_12
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 6012
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8585831920bdd0200800000000000000
+      internalID: 148015166845900888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_13
+      rect:
+        serializedVersion: 2
+        x: 5010
+        y: 6012
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d68c39445418a90800000000000000
+      internalID: -7313488159033496320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_14
+      rect:
+        serializedVersion: 2
+        x: 6012
+        y: 6012
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dbe715934ad14b0800000000000000
+      internalID: -5468033806470562465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_15
+      rect:
+        serializedVersion: 2
+        x: 7014
+        y: 6012
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4696d925112657a50800000000000000
+      internalID: 6518223862228674916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5010
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ac4ee6efdd30430800000000000000
+      internalID: 3748083399754304094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_17
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 5010
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7384b80e320dfdf0800000000000000
+      internalID: -144957147548712066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_18
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 5010
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f286e5084ca5390800000000000000
+      internalID: -7828728946611441906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_19
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 5010
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bcff44c2a9a2980800000000000000
+      internalID: -8562862226564723906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_20
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 5010
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7806ca8fff36aa890800000000000000
+      internalID: -7446029082863837049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_21
+      rect:
+        serializedVersion: 2
+        x: 5010
+        y: 5010
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af11ee36696ed370800000000000000
+      internalID: 8349226647054000035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_22
+      rect:
+        serializedVersion: 2
+        x: 6012
+        y: 5010
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f280ed8316df8180800000000000000
+      internalID: -9110828141674200331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_23
+      rect:
+        serializedVersion: 2
+        x: 7014
+        y: 5010
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546610f8cd9752610800000000000000
+      internalID: 1595815631171708485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4008
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec83d15973008b90800000000000000
+      internalID: -7241784381213012753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_25
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 4008
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f377eb40efaa7cb00800000000000000
+      internalID: 848835062760634175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_26
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 4008
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56377b93f8a01c0f0800000000000000
+      internalID: -1098585223836765339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_27
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 4008
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b976d200460b42f40800000000000000
+      internalID: 5702876971704084379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_28
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 4008
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0d6f7709d106210800000000000000
+      internalID: 1324090796772085942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_29
+      rect:
+        serializedVersion: 2
+        x: 5010
+        y: 4008
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a866b86a0333e6e0800000000000000
+      internalID: -1809546505473333083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_30
+      rect:
+        serializedVersion: 2
+        x: 6012
+        y: 4008
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8daa6ee2f3056cfb0800000000000000
+      internalID: -4627923334776575272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_31
+      rect:
+        serializedVersion: 2
+        x: 7014
+        y: 4008
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b48194295b7fa0b0800000000000000
+      internalID: -5715213779314047820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3006
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b21957886455a00800000000000000
+      internalID: 744578865301629847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_33
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 3006
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303ad1a5486bc6220800000000000000
+      internalID: 2480558174338130691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_34
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 3006
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd118fab4c3a90bb0800000000000000
+      internalID: -4969260648480894499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_35
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 3006
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c4077c880563e30800000000000000
+      internalID: 4482859027485707276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_36
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 3006
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f410856ad6fbed0800000000000000
+      internalID: -2396075915529334966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_37
+      rect:
+        serializedVersion: 2
+        x: 5010
+        y: 3006
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c617de2afc535450800000000000000
+      internalID: 6076302551850358469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_38
+      rect:
+        serializedVersion: 2
+        x: 6012
+        y: 3006
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb246fb03f195180800000000000000
+      internalID: -9126228875659695138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_39
+      rect:
+        serializedVersion: 2
+        x: 7014
+        y: 3006
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880e67d27ee18e230800000000000000
+      internalID: 3668215874742313096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2004
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ee0ed09ddd99950800000000000000
+      internalID: 6456435465122803312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_41
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 2004
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff61d22f6c0805bf0800000000000000
+      internalID: -337628380097865985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_42
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 2004
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f553dbcb754784f0800000000000000
+      internalID: -826615608596277768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_43
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 2004
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56fc82c48e9541d0800000000000000
+      internalID: -3367110853352688038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_44
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 2004
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db17b6c3bb46638b0800000000000000
+      internalID: -5172836366653099587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_45
+      rect:
+        serializedVersion: 2
+        x: 5010
+        y: 2004
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4494048c53e68800800000000000000
+      internalID: 614428385674040399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_46
+      rect:
+        serializedVersion: 2
+        x: 6012
+        y: 2004
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d5d557621818d30800000000000000
+      internalID: 4431965510487072148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_47
+      rect:
+        serializedVersion: 2
+        x: 7014
+        y: 2004
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9fa195f3f9be670800000000000000
+      internalID: 8569117810429196761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1002
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127628834832de680800000000000000
+      internalID: -8724277852356057311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_49
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1002
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d9ee14decf9c420800000000000000
+      internalID: 2650927951627853061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_50
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 1002
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ee07f44827d3390800000000000000
+      internalID: -7836981863960744354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_51
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 1002
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdff9e68f3670f80800000000000000
+      internalID: -8140427882789864006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_52
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 1002
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080647f09c3481e30800000000000000
+      internalID: 4474400760619360384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_53
+      rect:
+        serializedVersion: 2
+        x: 5010
+        y: 1002
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9462eff1f8204010800000000000000
+      internalID: 1170980922961585310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_54
+      rect:
+        serializedVersion: 2
+        x: 6012
+        y: 1002
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f03dd0c534f0f20800000000000000
+      internalID: 3391003107081260922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_55
+      rect:
+        serializedVersion: 2
+        x: 7014
+        y: 1002
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d3f5e79eb286a10800000000000000
+      internalID: 1902819124411579792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5296c0f887cfb58e0800000000000000
+      internalID: -1703490439303370459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_57
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 0
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8029ffceb0f3280800000000000000
+      internalID: -9061510812718200616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_58
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 0
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f89382c3b2de320800000000000000
+      internalID: 2588772898180796266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_59
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 0
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5899d5ebeeafc1cc0800000000000000
+      internalID: -3738837687321388667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigNPC_60
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 0
+        width: 1002
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1d3f55db8c06470800000000000000
+      internalID: 8385923221680279984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6963e1aabff8b9b4c8764b5225ed64b3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
