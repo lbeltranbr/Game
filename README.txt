@@ -1,9 +1,13 @@
 
-Last Update: 09/03/2021
+Last Update: 01/04/2021
 
-- Basic movement (walking and idle)
-- Forest Scene
-- Cave Scene
-  * Following hands
-  * Lanterns
-  * 2D Light
+* Initial Menu (complete)
+* Settings Menu (not complete)
+* Pause Menu (not complete)
+* Game Tutorial (complete)
+* 1st Level (not complete)
+* 2nd Level (not complete)
+* 3rd Level (not started)
+* Sounds (not complete)
+* Ending (not started)
+
