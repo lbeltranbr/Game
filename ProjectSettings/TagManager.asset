@@ -10,6 +10,7 @@ TagManager:
   - Up_hand
   - NPC_tutorial
   - NPC
+  - crack
   layers:
   - Default
   - TransparentFX

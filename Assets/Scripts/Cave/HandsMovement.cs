@@ -11,6 +11,7 @@ public class HandsMovement : MonoBehaviour
     public GameObject light;
     public Vector3 startPosPlayer;
     public Animator animation;
+    public GameObject cave_guy;
 
 
     private Vector3 startPos;
@@ -42,7 +43,7 @@ public class HandsMovement : MonoBehaviour
                 break;
             case 1: //reset
                 StartCoroutine("playAnim");
-               
+                cave_guy.SetActive(true);
                 break;
             case 2: //Backwards Left
                 transform.position = transform.position - horizontal * Time.deltaTime * speed*2;

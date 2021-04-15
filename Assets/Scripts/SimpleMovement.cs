@@ -35,53 +35,22 @@ public class SimpleMovement : MonoBehaviour
         else if (horizontal.x < -0.01f)
             spriteRenderer.flipX = true;
 
-        /*********************** VERTICAL MOVEMENT ***********************/
+        transform.position = transform.position + horizontal  * Time.deltaTime * speed;
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.S))
         {
-         
-            if (m_Grounded)
-            {
-                Debug.Log("caca");
-                // Add a vertical force to the player.
-                m_Grounded = false;
-                jump = true;
-                //m_Rigidbody2D.AddForce(new Vector2(0f, JumpForce));
-                vertical.y = JumpForce * 0.5f;
-                //vertical = new Vector3(0.0f, 1.0f, 0.0f);
-
-                animator.SetBool("Grounded", m_Grounded);
-
-            }
+            animator.SetTrigger("Spirit_walk");
         }
-        if (!m_Grounded){
-            if (transform.position.y > -2.5)
-            {
-                vertical.y = 0f;
-                jump = false;
-            }
-        }
-        
-            transform.position = transform.position + (horizontal + vertical) * Time.deltaTime * speed;
-
             //Debug.Log(transform.position);
     }
 
-    private void FixedUpdate()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(GroundCheck.position, GroundRad);
-        if (!jump)
+        if (collision.CompareTag("crack"))
         {
-            for (int i = 0; i < colliders.Length; i++)
-            {
-                if (colliders[i].gameObject != gameObject)
-                {
-                    m_Grounded = true;
-                    animator.SetBool("Grounded", m_Grounded);
-
-                }
-            }
+            
         }
-        
+
+
     }
 }

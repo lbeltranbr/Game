@@ -1,0 +1,20 @@
+Spirit
+W-wait, before you enter!
+Girl
+Hi, can I help you?
+Spirit
+Yes! But allow me to help you first with a few warnings!
+Girl
+Oh, thank you!
+Spirit
+This cave used to be my home, but the evil spirits of the forest took over and knocked my spirit orbs out of place allowing them to inhabit it!
+Spirit
+I need you to put the spirit orbs back into their lanterns for me.
+Spirit
+If you do this, the spirits may be grateful and offer you a memory core!
+Spirit 
+The evil spirits, however, will try to stop you, stay within the light of the spirit orbs and you will be safe! If you move beyond the light, they will grab you into the shadows!
+Spirit
+Be weary of any cracks in the ground along the way, the evil spirits opened these up to capture us!
+Girl
+Thank you! I will try my best to help you and get rid of the evil spirits that dwell within the  cave!
