@@ -17,6 +17,7 @@ public class EnterCave_dialogue : MonoBehaviour
     public Text dialogueText;
     public GameObject E_key;
     public string path;
+    public int NPC_number;
 
     // Update is called once per frame
     void Update()
@@ -31,7 +32,7 @@ public class EnterCave_dialogue : MonoBehaviour
                 E_key.SetActive(false);
                 DisplayNextSentence();
                 talk = true;
-
+                Utils.activate(NPC_number);
             }
         }
     }

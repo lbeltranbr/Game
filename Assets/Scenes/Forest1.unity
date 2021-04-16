@@ -6921,6 +6921,7 @@ MonoBehaviour:
   dialogueText: {fileID: 1296818666}
   E_key: {fileID: 1371333181}
   path: Enter_Cave
+  NPC_number: 1
 --- !u!61 &1977797776
 BoxCollider2D:
   m_ObjectHideFlags: 0
