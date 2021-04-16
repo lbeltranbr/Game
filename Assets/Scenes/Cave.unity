@@ -6356,6 +6356,7 @@ GameObject:
   - component: {fileID: 1200021841}
   - component: {fileID: 1200021842}
   - component: {fileID: 1200021843}
+  - component: {fileID: 1200021844}
   m_Layer: 0
   m_Name: Floor_Crack
   m_TagString: crack
@@ -6371,7 +6372,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200021840}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.04, y: 0, z: 0}
+  m_LocalPosition: {x: -10.2, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1672137903}
@@ -6454,6 +6455,19 @@ EdgeCollider2D:
   - {x: -6.693018, y: -4.6203437}
   - {x: -6.3990364, y: -4.6098437}
   - {x: -7.053749, y: -5.3944163}
+--- !u!114 &1200021844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200021840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa1f816da4b125443a485d7b603dc6fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1518787691}
 --- !u!1 &1218424506
 GameObject:
   m_ObjectHideFlags: 0
@@ -8143,7 +8157,6 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1518787695}
   GroundCheck: {fileID: 1904177298}
   speed: 5
-  JumpForce: 2
 --- !u!95 &1518787694
 Animator:
   serializedVersion: 3
