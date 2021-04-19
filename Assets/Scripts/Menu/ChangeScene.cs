@@ -6,12 +6,21 @@ using UnityEngine.SceneManagement;
 public class ChangeScene : MonoBehaviour
 {
     public string SceneName;
+    public GameObject anim;
     public void GoToMainScene()
     {
-        SceneManager.LoadScene(SceneName, LoadSceneMode.Single);
+        StartCoroutine("loadScene");
     }
     public void Quit()
     {
         Application.Quit();
+    }
+
+    IEnumerator loadScene()
+    {
+        anim.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(SceneName, LoadSceneMode.Single);
+
     }
 }

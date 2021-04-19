@@ -12,6 +12,7 @@ public class HandsMovement : MonoBehaviour
     public Vector3 startPosPlayer;
     public Animator animation;
     public GameObject cave_guy;
+    public GameObject collider;
 
 
     private Vector3 startPos;
@@ -49,15 +50,22 @@ public class HandsMovement : MonoBehaviour
                 break;
             case 2: //Backwards Left
                 transform.position = transform.position - horizontal * Time.deltaTime * speed*2;
-             
-                if (transform.position.x < startPos.x)  
-                    gameObject.SetActive(false);
+
+                if (transform.position.x < startPos.x)
+                {
+                    ResetHands();
+                    collider.SetActive(false);
+                }
+                //gameObject.SetActive(false);
                 break;
             case 3://Up
                 transform.position = transform.position + vertical * Time.deltaTime * speed * 2;
 
                 if (transform.position.y > 11)
-                    gameObject.SetActive(false);
+                {
+                    ResetHands();
+                    collider.SetActive(false);
+                }
                 break;
 
         };
