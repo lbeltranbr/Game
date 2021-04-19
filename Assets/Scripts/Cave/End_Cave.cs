@@ -10,6 +10,7 @@ public class End_Cave : MonoBehaviour
     private Queue<string> dialog = new Queue<string>();
     private Queue<string> names = new Queue<string>();
     private bool first = true;
+    private bool trigger = false;
 
     public GameObject dialogue_canvas;
     public GameObject cont_button;
@@ -63,7 +64,11 @@ public class End_Cave : MonoBehaviour
     IEnumerator wait()
     {
         Animator anim = gameObject.GetComponent<Animator>();
-        anim.SetTrigger("fade");
+        if (!trigger)
+        {
+            anim.SetTrigger("fade");
+            trigger = true;
+        }
         yield return new WaitForSeconds(1.0f);
         gameObject.SetActive(false);
 

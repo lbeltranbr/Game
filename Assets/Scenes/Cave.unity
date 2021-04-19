@@ -992,7 +992,7 @@ GameObject:
   - component: {fileID: 140465838}
   - component: {fileID: 140465837}
   m_Layer: 0
-  m_Name: Floor_Crack (1)
+  m_Name: Floor_Crack 3
   m_TagString: crack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1056,7 +1056,6 @@ MonoBehaviour:
   anim: {fileID: 1281328699}
   hand: {fileID: 421902261}
   cave_guy: {fileID: 70351422}
-  startPosPlayer: {x: 13.8, y: -4, z: 1}
   startPosHand: {x: 22.6, y: 1.31, z: 1}
 --- !u!212 &140465839
 SpriteRenderer:
@@ -2461,7 +2460,7 @@ GameObject:
   - component: {fileID: 531962639}
   - component: {fileID: 531962638}
   m_Layer: 0
-  m_Name: Floor_Crack
+  m_Name: Floor_Crack 5
   m_TagString: crack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2525,7 +2524,6 @@ MonoBehaviour:
   anim: {fileID: 1281328699}
   hand: {fileID: 421902261}
   cave_guy: {fileID: 70351422}
-  startPosPlayer: {x: 13.8, y: -4, z: 1}
   startPosHand: {x: 22.6, y: 1.31, z: 1}
 --- !u!212 &531962640
 SpriteRenderer:
@@ -6184,7 +6182,7 @@ GameObject:
   - component: {fileID: 1100690942}
   - component: {fileID: 1100690941}
   m_Layer: 0
-  m_Name: Floor_Crack (1)
+  m_Name: Floor_Crack 7
   m_TagString: crack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6248,7 +6246,6 @@ MonoBehaviour:
   anim: {fileID: 1281328699}
   hand: {fileID: 421902261}
   cave_guy: {fileID: 70351422}
-  startPosPlayer: {x: 63, y: -4, z: 1}
   startPosHand: {x: 22.6, y: 1.31, z: 1}
 --- !u!212 &1100690943
 SpriteRenderer:
@@ -7164,7 +7161,6 @@ MonoBehaviour:
   anim: {fileID: 1281328699}
   hand: {fileID: 1747264837}
   cave_guy: {fileID: 70351422}
-  startPosPlayer: {x: -64, y: -4, z: 1}
   startPosHand: {x: -13.55, y: 1.67, z: 1}
 --- !u!61 &1200021845
 BoxCollider2D:
@@ -9039,7 +9035,7 @@ GameObject:
   - component: {fileID: 1554453766}
   - component: {fileID: 1554453765}
   m_Layer: 0
-  m_Name: Floor_Crack (1)
+  m_Name: Floor_Crack 2
   m_TagString: crack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9103,7 +9099,6 @@ MonoBehaviour:
   anim: {fileID: 1281328699}
   hand: {fileID: 1747264837}
   cave_guy: {fileID: 70351422}
-  startPosPlayer: {x: -64, y: -4, z: 1}
   startPosHand: {x: -13.55, y: 1.67, z: 1}
 --- !u!212 &1554453767
 SpriteRenderer:
@@ -9902,7 +9897,6 @@ Transform:
   - {fileID: 1657648213}
   - {fileID: 1313201232}
   - {fileID: 2017542588}
-  - {fileID: 2140967063}
   m_Father: {fileID: 299890104}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10252,7 +10246,7 @@ GameObject:
   - component: {fileID: 1711155793}
   - component: {fileID: 1711155792}
   m_Layer: 0
-  m_Name: Floor_Crack (2)
+  m_Name: Floor_Crack 8
   m_TagString: crack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10316,7 +10310,6 @@ MonoBehaviour:
   anim: {fileID: 1281328699}
   hand: {fileID: 421902261}
   cave_guy: {fileID: 70351422}
-  startPosPlayer: {x: 63, y: -4, z: 1}
   startPosHand: {x: 22.6, y: 1.31, z: 1}
 --- !u!212 &1711155794
 SpriteRenderer:
@@ -12022,7 +12015,7 @@ GameObject:
   - component: {fileID: 1918356281}
   - component: {fileID: 1918356280}
   m_Layer: 0
-  m_Name: Floor_Crack
+  m_Name: Floor_Crack 6
   m_TagString: crack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12086,7 +12079,6 @@ MonoBehaviour:
   anim: {fileID: 1281328699}
   hand: {fileID: 421902261}
   cave_guy: {fileID: 70351422}
-  startPosPlayer: {x: 63, y: -4, z: 1}
   startPosHand: {x: 22.6, y: 1.31, z: 1}
 --- !u!212 &1918356282
 SpriteRenderer:
@@ -12311,7 +12303,7 @@ GameObject:
   - component: {fileID: 1943090788}
   - component: {fileID: 1943090787}
   m_Layer: 0
-  m_Name: Floor_Crack (2)
+  m_Name: Floor_Crack 4
   m_TagString: crack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12375,7 +12367,6 @@ MonoBehaviour:
   anim: {fileID: 1281328699}
   hand: {fileID: 421902261}
   cave_guy: {fileID: 70351422}
-  startPosPlayer: {x: 13.8, y: -4, z: 1}
   startPosHand: {x: 22.6, y: 1.31, z: 1}
 --- !u!212 &1943090789
 SpriteRenderer:
@@ -13966,87 +13957,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2136552122}
   m_CullTransparentMesh: 0
---- !u!1 &2140967062
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2140967063}
-  - component: {fileID: 2140967064}
-  m_Layer: 0
-  m_Name: Floor_Crack
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &2140967063
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2140967062}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.04, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1692387510}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2140967064
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2140967062}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2008510005
-  m_SortingLayer: 6
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1d9aeaf4ca3b5444d93f36b485e75bd2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 33.31084, y: 10.799999}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &2144359416
 GameObject:
   m_ObjectHideFlags: 0

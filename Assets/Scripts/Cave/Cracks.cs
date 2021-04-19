@@ -12,11 +12,11 @@ public class Cracks : MonoBehaviour
     public GameObject cave_guy;
 
 
-    public Vector3 startPosPlayer;
+    //public Vector3 startPosPlayer;
     public Vector3 startPosHand;
 
     private bool out_anim = false;
-
+    private Vector3 startPosPlayer;
 
 
     // Update is called once per frame
@@ -24,7 +24,14 @@ public class Cracks : MonoBehaviour
     {
         if (player.transform.position.y < -10)
             StartCoroutine("playAnim");
-                
+
+        if (Utils.cave_checkpoints == 0)
+            startPosPlayer = new Vector3(-64, -4, 1);
+        if (Utils.cave_checkpoints == 1)
+            startPosPlayer = new Vector3(13.8f, -4, 1);
+        if (Utils.cave_checkpoints == 2)
+            startPosPlayer = new Vector3(63, -4, 1);
+
 
     }
     private void OnTriggerEnter2D(Collider2D collision)
