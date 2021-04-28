@@ -6,6 +6,7 @@ public static class Utils
 {
     public static bool c_1 = false;
     public static int cave_checkpoints = 0;
+    public static bool riddle = false;
 
     public static void addCheckpoint()
     {
@@ -23,6 +24,9 @@ public static class Utils
     {
         if (num == 1)
             c_1 = true;
+        if (num == 2)
+            riddle = true;
     }
     
+
 }
