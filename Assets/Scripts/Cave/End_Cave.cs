@@ -85,6 +85,8 @@ public class End_Cave : MonoBehaviour
         {
             dialogue_canvas.SetActive(false);
             StartCoroutine("wait");
+            FindObjectOfType<SimpleMovement>().enabled = true;
+
             return;
             
         }
@@ -115,6 +117,8 @@ public class End_Cave : MonoBehaviour
         cont_button.SetActive(true);
         DisplayNextSentence();
         first = false;
+        FindObjectOfType<SimpleMovement>().enabled = false;
+
     }
 }
 

@@ -18,6 +18,7 @@ public class EnterCave_dialogue : MonoBehaviour
     public GameObject E_key;
     public string path;
     public int NPC_number;
+  
 
     // Update is called once per frame
     void Update()
@@ -32,7 +33,7 @@ public class EnterCave_dialogue : MonoBehaviour
                 E_key.SetActive(false);
                 DisplayNextSentence();
                 talk = true;
-                Utils.activate(NPC_number);
+                FindObjectOfType<SimpleMovement>().enabled = false;
             }
         }
     }
@@ -40,10 +41,13 @@ public class EnterCave_dialogue : MonoBehaviour
     {
         yield return new WaitForSeconds(1.0f);
     }
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!talk)
+        if (talk)
+            E_key.SetActive(false);
+        else
             E_key.SetActive(true);
+
 
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -58,6 +62,9 @@ public class EnterCave_dialogue : MonoBehaviour
         {
             dialogue_canvas.SetActive(false);
             talk = false;
+            Utils.activate(NPC_number);
+            FindObjectOfType<SimpleMovement>().enabled = true;
+
             return;
         }
         nameText.text = names.Dequeue();
@@ -79,7 +86,7 @@ public class EnterCave_dialogue : MonoBehaviour
         cont_button.GetComponent<AudioSource>().Stop();
 
     }
-    private void Create_Lists()
+    public void Create_Lists()
     {
         string p = Application.dataPath + "/Text Files/" + path + ".txt";
         List<string> lines = File.ReadAllLines(p).ToList();

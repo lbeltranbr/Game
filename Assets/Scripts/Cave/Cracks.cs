@@ -22,7 +22,7 @@ public class Cracks : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player.transform.position.y < -10)
+        if (player.transform.position.y < -7)
             StartCoroutine("playAnim");
 
         if (Utils.cave_checkpoints == 0)
@@ -67,22 +67,20 @@ public class Cracks : MonoBehaviour
             out_anim = true;
         }
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.0f);
 
         player.transform.position = startPosPlayer;
-        Debug.Log("startposplayer: " + startPosPlayer);
-        Debug.Log("player: " + player.transform.position);
+        //Debug.Log("startposplayer: " + startPosPlayer);
+        //Debug.Log("player: " + player.transform.position);
         hand.transform.position = startPosHand;
         hand.SetActive(false);
         if (Utils.cave_checkpoints == 0)
             cave_guy.SetActive(true);
         //ResetHands();
         anim.SetTrigger("in");
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2.0f);
 
         out_anim = false;
-
-
 
     }
 }

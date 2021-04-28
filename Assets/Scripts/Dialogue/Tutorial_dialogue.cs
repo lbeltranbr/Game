@@ -79,6 +79,8 @@ public class Tutorial_dialogue : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    FindObjectOfType<SimpleMovement>().enabled = false;
+
                     dialogue_canvas.SetActive(true);
                     DisplayNextSentence();
                     popup.SetActive(false);
@@ -98,6 +100,8 @@ public class Tutorial_dialogue : MonoBehaviour
             dialogue_canvas.SetActive(false);
             cont_button.SetActive(false);
             cont_button_next.SetActive(true);
+            FindObjectOfType<SimpleMovement>().enabled = true;
+
             return;
         }
         nameText.text = names.Dequeue();

@@ -26,7 +26,9 @@ public class InteractableObject : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 light.SetActive(true);
+                player.GetComponent<Animator>().SetBool("Orb",true);
                 this.gameObject.SetActive(false);
+
             }
 
         }
