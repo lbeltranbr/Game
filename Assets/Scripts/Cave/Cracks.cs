@@ -26,7 +26,7 @@ public class Cracks : MonoBehaviour
             StartCoroutine("playAnim");
 
         if (Utils.cave_checkpoints == 0)
-            startPosPlayer = new Vector3(-64, -4, 1);
+            startPosPlayer = new Vector3(-58, -4, 1);
         if (Utils.cave_checkpoints == 1)
             startPosPlayer = new Vector3(13.8f, -4, 1);
         if (Utils.cave_checkpoints == 2)

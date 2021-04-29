@@ -8,6 +8,8 @@ public static class Utils
     public static int cave_checkpoints = 0;
     public static bool riddle = false;
     public static bool error = false;
+    public static float volume = 1;
+    public static float SFX = 1;
 
     public static void addCheckpoint()
     {
@@ -32,6 +34,17 @@ public static class Utils
     {
         error = e;
     }
-    
+    public static void ChangeVolume(float v)
+    {
+        volume = v;
+        Debug.Log("volume: " + volume);
+    }
+    public static void ChangeSFX(float v)
+    {
+        SFX = v;
+        Debug.Log("sfx: " + SFX);
+
+    }
+
 
 }

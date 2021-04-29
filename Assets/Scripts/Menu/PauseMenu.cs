@@ -9,6 +9,8 @@ public class PauseMenu : MonoBehaviour
 {
     public GameObject pause;
     public GameObject pauseButton;
+    public Slider music;
+    public Slider sfx;
     public void ActivatePauseMenu()
     {
         pause.SetActive(true);
@@ -26,7 +28,8 @@ public class PauseMenu : MonoBehaviour
 
     public void Retry() 
     { 
-    
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
+
     }
 
     public void Save()
@@ -45,5 +48,13 @@ public class PauseMenu : MonoBehaviour
         SceneManager.LoadScene("InitialScene", LoadSceneMode.Single);
         Time.timeScale = 1;
 
+    }
+    public void ChangeVol()
+    {
+        Utils.ChangeVolume(music.value);
+    }
+    public void Changesfx()
+    {
+        Utils.ChangeSFX(sfx.value);
     }
 }
