@@ -10,6 +10,7 @@ public class Tutorial_dialogue : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject dialogue_canvas;
+    public GameObject PauseMenu;
     public Transform npc;
     public Text nameText;
     public Text dialogueText;
@@ -61,8 +62,12 @@ public class Tutorial_dialogue : MonoBehaviour
         {
             dialogue_canvas.SetActive(false);
             FindObjectOfType<SimpleMovement>().enabled = true;
-            keys.gameObject.SetActive(true);
-           
+            if(PauseMenu.activeSelf)
+                keys.gameObject.SetActive(false);
+            else
+                keys.gameObject.SetActive(true);
+
+
             if (npc.position.x < 25)
             {
                 Vector3 horizontal = new Vector3(1.0f, 0.0f, 0.0f);

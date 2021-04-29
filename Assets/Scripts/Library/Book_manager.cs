@@ -24,10 +24,14 @@ public class Book_manager : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
             {
-                    //book.SetActive(true);
+                bool a=hit.collider.CompareTag(name);
+               // Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
+                //book.SetActive(true);
                 foreach (GameObject it in books)
-                    if(it.CompareTag(name))
-                        it.SetActive(true);
+                    if(hit.collider.CompareTag(name))
+                        if(it.CompareTag(name))
+                            it.SetActive(true);
+                return;
             }
         }
     }

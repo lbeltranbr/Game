@@ -12,6 +12,7 @@ public class Library_Manager : MonoBehaviour
     public GameObject player;
     public Text ans;
     public GameObject pause;
+    public GameObject col;
 
 
     // Update is called once per frame
@@ -22,6 +23,7 @@ public class Library_Manager : MonoBehaviour
             bigNPC.GetComponent<EnterCave_dialogue>().enabled = false;
             bigNPC.GetComponent<EnterCave_dialogue>().path="LibraryNPC2";
             bigNPC.GetComponent<Input_Answer>().enabled = true;
+            col.SetActive(false);
 
         }
 

@@ -1686,6 +1686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue_canvas: {fileID: 750041724}
+  PauseMenu: {fileID: 1533576664}
   npc: {fileID: 962253644}
   nameText: {fileID: 1252433765}
   dialogueText: {fileID: 1296818666}
@@ -2073,7 +2074,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 202.35077, y: 21.199432}
+  m_AnchoredPosition: {x: 202.35077, y: 35}
   m_SizeDelta: {x: 404.70154, y: 42.398865}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &467492789
@@ -2460,7 +2461,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504641762}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 59.5, y: 0.33999968, z: -10.450001}
+  m_LocalPosition: {x: 62.7, y: 0.33999968, z: -10.450001}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5065,10 +5066,10 @@ RectTransform:
   m_Father: {fileID: 750041725}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.04625, y: 0.014}
-  m_AnchorMax: {x: 0.8628529, y: 0.098000005}
-  m_AnchoredPosition: {x: 0, y: -3.5}
-  m_SizeDelta: {x: -0.000061035156, y: 7.0000095}
+  m_AnchorMin: {x: 0.045, y: 0.012}
+  m_AnchorMax: {x: 0.8603528, y: 0.132}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1315089415
 GameObject:
@@ -5116,7 +5117,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -3, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
