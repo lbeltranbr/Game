@@ -2,12 +2,12 @@
 Last Update: 01/04/2021
 
 * Initial Menu (complete)
-* Settings Menu (not complete)
-* Pause Menu (not complete)
+* Settings Menu (complete)
+* Pause Menu (complete)
 * Game Tutorial (complete)
-* 1st Level (not complete)
+* 1st Level (complete)
 * 2nd Level (not complete)
 * 3rd Level (not started)
-* Sounds (not complete)
-* Ending (not started)
+* Sounds (complete)
+* Ending (started)
 
