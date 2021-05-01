@@ -18,7 +18,6 @@ public class Cracks : MonoBehaviour
     private bool out_anim = false;
     private Vector3 startPosPlayer;
 
-
     // Update is called once per frame
     void Update()
     {
@@ -73,7 +72,9 @@ public class Cracks : MonoBehaviour
         //Debug.Log("startposplayer: " + startPosPlayer);
         //Debug.Log("player: " + player.transform.position);
         hand.transform.position = startPosHand;
+        hand.GetComponent<HandsMovement>().speed=2;
         hand.SetActive(false);
+
         if (Utils.cave_checkpoints == 0)
             cave_guy.SetActive(true);
         //ResetHands();

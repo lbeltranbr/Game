@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.IO;
+using System.Linq;
 
 public class ChangeScene : MonoBehaviour
 {
@@ -35,4 +37,24 @@ public class ChangeScene : MonoBehaviour
     {
         Utils.ChangeSFX(sfx.value);
     }
+
+  
+    public void LoadFromFile()
+    {
+
+        StartCoroutine("loadSceneFromFile");
+
+    }
+    IEnumerator loadSceneFromFile()
+    {
+        string p = Application.dataPath + "/Text Files/save.txt";
+        string[] lines = File.ReadAllLines(p).ToArray();
+        anim.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(lines[0], LoadSceneMode.Single);
+
+
+    }
+
+
 }

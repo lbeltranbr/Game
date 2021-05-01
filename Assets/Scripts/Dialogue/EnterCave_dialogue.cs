@@ -43,16 +43,21 @@ public class EnterCave_dialogue : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (talk)
-            E_key.SetActive(false);
-        else
-            E_key.SetActive(true);
+        if (gameObject.GetComponent<EnterCave_dialogue>().enabled) { 
+            if (talk)
+                E_key.SetActive(false);
+            else
+                E_key.SetActive(true);
+        }
+      
 
 
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
-        E_key.SetActive(false);
+        if (gameObject.GetComponent<EnterCave_dialogue>().enabled)
+            E_key.SetActive(false);
 
     }
 

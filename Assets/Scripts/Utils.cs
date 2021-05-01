@@ -42,9 +42,13 @@ public static class Utils
     public static void ChangeSFX(float v)
     {
         SFX = v;
-        Debug.Log("sfx: " + SFX);
 
     }
+    public static void DeactivateRiddle()
+    {
+        riddle = false;
+    }
+
 
 
 }

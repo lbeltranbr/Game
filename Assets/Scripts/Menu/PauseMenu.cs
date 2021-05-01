@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.IO;
+
 
 
 public class PauseMenu : MonoBehaviour
@@ -34,7 +36,9 @@ public class PauseMenu : MonoBehaviour
 
     public void Save()
     {
-
+        string p = Application.dataPath + "/Text Files/save.txt";
+        //List<string> lines = File.ReadAllLines(p).ToList();
+        File.WriteAllText(p, SceneManager.GetActiveScene().name);
     }
 
     public void Options()
@@ -56,5 +60,6 @@ public class PauseMenu : MonoBehaviour
     public void Changesfx()
     {
         Utils.ChangeSFX(sfx.value);
-    }
+    } 
+
 }

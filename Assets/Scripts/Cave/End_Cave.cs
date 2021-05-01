@@ -19,7 +19,8 @@ public class End_Cave : MonoBehaviour
     public Text nameText;
     public Text dialogueText;
 
-
+    public GameObject memory;
+    public GameObject teddy;
     private void Start()
     {
         string p = Application.dataPath + "/Text Files/" + "End_Cave.txt";
@@ -54,13 +55,7 @@ public class End_Cave : MonoBehaviour
         }
         
     }
-    // Update is called once per frame
-    void Update()
-    {
-        
-     
-
-    }
+ 
     IEnumerator wait()
     {
         Animator anim = gameObject.GetComponent<Animator>();
@@ -71,6 +66,8 @@ public class End_Cave : MonoBehaviour
         }
         yield return new WaitForSeconds(1.0f);
         gameObject.SetActive(false);
+        memory.SetActive(true);
+        //teddy.SetActive(true);
 
     }
     private void OnTriggerEnter2D(Collider2D collision)

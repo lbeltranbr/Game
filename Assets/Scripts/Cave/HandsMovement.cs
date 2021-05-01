@@ -86,7 +86,7 @@ public class HandsMovement : MonoBehaviour
         }
     }
 
-    private void ResetHands()
+    public void ResetHands()
     {
         transform.position = startPos;
         speed = startSpeed;

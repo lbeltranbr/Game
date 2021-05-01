@@ -13,9 +13,14 @@ public class Library_Manager : MonoBehaviour
     public Text ans;
     public GameObject pause;
     public GameObject col;
+    public GameObject memory;
 
 
     // Update is called once per frame
+    private void Awake()
+    {
+        Utils.Error(false);
+    }
     void Update()
     {
         if (Utils.riddle)
@@ -27,21 +32,24 @@ public class Library_Manager : MonoBehaviour
 
         }
 
-        if (Utils.error)
-        {
-            smoke.SetActive(true);
-            SceneManager.LoadScene("Library", LoadSceneMode.Single);
-        }
-
-
-        
+            
     }
 
     public void CheckAnswer()
     {
-        if (ans.text != "Coffin" || ans.text != "coffin" || ans.text != "COFFIN")
+        //ERROR
+        if (ans.text != "Coffin" && ans.text != "coffin" && ans.text != "COFFIN")
         {
+            Utils.Error(true);
+
             StartCoroutine("restart");
+        }
+        else //CORRECT
+        {
+            Utils.DeactivateRiddle();
+            player.GetComponent<SimpleMovement>().enabled = true;
+            bigNPC.GetComponent<Input_Answer>().enabled = false;
+            memory.SetActive(true);
         }
 
     }

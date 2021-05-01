@@ -40,4 +40,5 @@ public class GoToNextLevel : MonoBehaviour
         SceneManager.LoadScene(SceneName, LoadSceneMode.Single);
 
     }
+  
 }

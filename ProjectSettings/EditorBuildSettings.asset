@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/InitialScene.unity
     guid: 649972b27f7ff0c4ea525d7ffd4e9f64
   - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 2db105ac93debaa4ba306fa85ec4e5f9
+  - enabled: 1
     path: Assets/Scenes/Forest1.unity
     guid: aa207d7eb21faae469aed4870b1e0e3a
   - enabled: 1
@@ -23,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Library.unity
     guid: 2d88c16bd22e32040a8211f2c6a40495
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: 6024880c4b10221459566d299ece70ac
   - enabled: 0
     path: Assets/Transitions/AnimCreation.unity
     guid: c40e1397423bc1845aa3bf612c87693b
