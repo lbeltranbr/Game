@@ -6,8 +6,8 @@ Last Update: 01/04/2021
 * Pause Menu (complete)
 * Game Tutorial (complete)
 * 1st Level (complete)
-* 2nd Level (not complete)
-* 3rd Level (not started)
+* 2nd Level (complete)
+* 3rd Level (not implemented)
 * Sounds (complete)
-* Ending (started)
+* Ending (provisional ending complete)
 
