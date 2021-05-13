@@ -38,7 +38,7 @@ public class Library_Manager : MonoBehaviour
     public void CheckAnswer()
     {
         //ERROR
-        if (ans.text != "Coffin" && ans.text != "coffin" && ans.text != "COFFIN")
+        if (ans.text != "Coffin" && ans.text != "coffin" && ans.text != "COFFIN" && ans.text != "the coffin" && ans.text != "THE COFFIN" && ans.text != "The Coffin" && ans.text != "The coffin" && ans.text != "A COFFIN" && ans.text != "a coffin" && ans.text != "A coffin" && ans.text != "A Coffin")
         {
             Utils.Error(true);
 

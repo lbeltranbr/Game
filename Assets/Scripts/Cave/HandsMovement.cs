@@ -45,9 +45,7 @@ public class HandsMovement : MonoBehaviour
             case 1: //reset
                 StartCoroutine("playAnim");
                 cave_guy.SetActive(true);
-                /*if (Utils.cave_checkpoints > 0)
-                    Utils.subsCheckpoint(1);*/
-                break;
+                               break;
             case 2: //Backwards Left
                 transform.position = transform.position - horizontal * Time.deltaTime * speed*2;
 
@@ -56,7 +54,6 @@ public class HandsMovement : MonoBehaviour
                     ResetHands();
                     collider.SetActive(false);
                 }
-                //gameObject.SetActive(false);
                 break;
             case 3://Up
                 transform.position = transform.position + vertical * Time.deltaTime * speed * 2;

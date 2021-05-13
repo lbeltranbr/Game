@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -393,9 +393,10 @@ GameObject:
   m_Component:
   - component: {fileID: 52190701}
   - component: {fileID: 52190702}
+  - component: {fileID: 52190703}
   m_Layer: 5
   m_Name: Slider
-  m_TagString: Untagged
+  m_TagString: volume
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -483,6 +484,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &52190703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52190700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c6b97a0caa2f9144b79d845da111482, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &59980585
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,6 +672,7 @@ GameObject:
   m_Component:
   - component: {fileID: 82862040}
   - component: {fileID: 82862041}
+  - component: {fileID: 82862042}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -749,6 +763,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &82862042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82862039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c6b97a0caa2f9144b79d845da111482, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &100685884
 GameObject:
   m_ObjectHideFlags: 0
@@ -7537,6 +7563,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1229779634}
   - component: {fileID: 1229779635}
+  - component: {fileID: 1229779636}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -7627,6 +7654,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1229779636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229779633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c6b97a0caa2f9144b79d845da111482, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1276478574
 GameObject:
   m_ObjectHideFlags: 0
@@ -9218,6 +9257,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1502132922}
   - component: {fileID: 1502132923}
+  - component: {fileID: 1502132924}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -9308,6 +9348,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1502132924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502132921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c6b97a0caa2f9144b79d845da111482, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1507065500
 GameObject:
   m_ObjectHideFlags: 0

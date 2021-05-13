@@ -1,7 +1,7 @@
 Spirit
 Thank you for clearing out the evil spirits and returning my home to me!
 Girl
-You’re welcome I’m glad I could help!
+You’re welcome I'm glad I could help!
 Girl
 Sorry I misjudged you, I was told to be weary of other spirits.
 Spirit
@@ -9,4 +9,4 @@ One more thing before you go, you should be weary from here on, the upcoming for
 Spirit
 You can rest assured that I am no evil spirit, however you should be weary from here on, the upcoming forest houses evil spirits, even the friendliest of spirits can be evil.
 Girl
-I’ll keep that in mind, goodbye!
+I'll keep that in mind, goodbye!
