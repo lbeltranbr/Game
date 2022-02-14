@@ -4,19 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Light
-  - collect
-  - Left_hand
-  - Up_hand
-  - NPC_tutorial
-  - NPC
-  - crack
-  - C
-  - O
-  - F
-  - I
-  - N
-  - volume
+  - NextLevel
+  - Book
+  - tutorial
+  - Orb
   layers:
   - Default
   - TransparentFX
@@ -54,33 +45,42 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 3469021019
+  - name: void
+    uniqueID: 1414908423
     locked: 0
-  - name: Wall1
-    uniqueID: 3944511029
+  - name: Base
+    uniqueID: 3488549595
     locked: 0
-  - name: Wall2
-    uniqueID: 2498423661
+  - name: b_1
+    uniqueID: 1160243609
     locked: 0
-  - name: Spikes
-    uniqueID: 4277479833
+  - name: L1
+    uniqueID: 1475347647
     locked: 0
-  - name: Floor
-    uniqueID: 2119643653
+  - name: 1_2
+    uniqueID: 2271941837
     locked: 0
-  - name: Crack
-    uniqueID: 2008510005
+  - name: L2
+    uniqueID: 4193951283
     locked: 0
-  - name: B_lamp
-    uniqueID: 2317975825
+  - name: 2_3
+    uniqueID: 3648631573
     locked: 0
-  - name: B_player
-    uniqueID: 2204928955
+  - name: L3
+    uniqueID: 1686405605
     locked: 0
-  - name: Player
-    uniqueID: 786195085
+  - name: 3_4
+    uniqueID: 2543209243
     locked: 0
-  - name: T_player
-    uniqueID: 1312511385
+  - name: L4
+    uniqueID: 3819876685
+    locked: 0
+  - name: 4_c
+    uniqueID: 1938238773
+    locked: 0
+  - name: CHARACTER
+    uniqueID: 1501243331
+    locked: 0
+  - name: top
+    uniqueID: 434635289
     locked: 0

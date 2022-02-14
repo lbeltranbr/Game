@@ -1,44 +1,21 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GoToNextLevel : MonoBehaviour
 {
-    public string SceneName;
-    public GameObject Character;
-    public Animator animator;
-    public Animator fade;
-    public GameObject Character_cam;
-
-    private bool walk;
-    private void Update()
+    public GameObject animIn;
+    public string levelName;
+    IEnumerator ActivateIn()
     {
-        if (walk)
-        {
-            Vector3 horizontal = new Vector3(1f, 0.0f, 0.0f);
-            Character.transform.position = Character.transform.position + horizontal * Time.deltaTime*3;
-        }
-        
+        animIn.SetActive(true);
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene(levelName, LoadSceneMode.Single);
     }
-    void OnTriggerEnter2D(Collider2D col)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        StartCoroutine("ChangeScene");
+        if (collision.tag.Equals("Player"))
+            StartCoroutine(ActivateIn());
     }
-    IEnumerator ChangeScene()
-    {
-        //change camera
-        Character_cam.SetActive(false);
-        //move character
-        animator.SetTrigger("Ending");
-        walk = true;
-        FindObjectOfType<SimpleMovement>().enabled = false;
-        //fade in
-        fade.SetTrigger("out");
-        yield return new WaitForSeconds(1f);
-        //change scene
-        SceneManager.LoadScene(SceneName, LoadSceneMode.Single);
-
-    }
-  
 }

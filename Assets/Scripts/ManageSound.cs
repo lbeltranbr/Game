@@ -11,14 +11,9 @@ public class ManageSound : MonoBehaviour
 
     void Update()
     {
-   
         foreach (AudioSource m in music)
-            m.volume = m.maxDistance*Utils.volume;
-
-
+            m.volume = m.maxDistance*Sound.volume;
         foreach (AudioSource m in sfx)
-            m.volume = m.maxDistance*Utils.SFX;
-
-       
+            m.volume = m.maxDistance*Sound.SFX;
     }
 }

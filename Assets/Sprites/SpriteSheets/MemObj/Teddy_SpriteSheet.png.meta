@@ -1,0 +1,708 @@
+fileFormatVersion: 2
+guid: aef399a179eac6e4cbd54f5101d49a1b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3411812579207797911
+    second: Teddy_SpriteSheet_0
+  - first:
+      213: -2569877800826854971
+    second: Teddy_SpriteSheet_1
+  - first:
+      213: -4744382490234996886
+    second: Teddy_SpriteSheet_2
+  - first:
+      213: -8268804566786766177
+    second: Teddy_SpriteSheet_3
+  - first:
+      213: -8458952680937768550
+    second: Teddy_SpriteSheet_4
+  - first:
+      213: 5015442341666992421
+    second: Teddy_SpriteSheet_5
+  - first:
+      213: 9133191232800201006
+    second: Teddy_SpriteSheet_6
+  - first:
+      213: 2987274123449649552
+    second: Teddy_SpriteSheet_7
+  - first:
+      213: 2318351175059980191
+    second: Teddy_SpriteSheet_8
+  - first:
+      213: -8124350746392089711
+    second: Teddy_SpriteSheet_9
+  - first:
+      213: -8743261499343470239
+    second: Teddy_SpriteSheet_10
+  - first:
+      213: -2840785410195229320
+    second: Teddy_SpriteSheet_11
+  - first:
+      213: 8066899114732759774
+    second: Teddy_SpriteSheet_12
+  - first:
+      213: -4076128500711868189
+    second: Teddy_SpriteSheet_13
+  - first:
+      213: 8315862320437356564
+    second: Teddy_SpriteSheet_14
+  - first:
+      213: 5814477566632154052
+    second: Teddy_SpriteSheet_15
+  - first:
+      213: 2200006906197764026
+    second: Teddy_SpriteSheet_16
+  - first:
+      213: 812338495367068827
+    second: Teddy_SpriteSheet_17
+  - first:
+      213: 3214720683523023615
+    second: Teddy_SpriteSheet_18
+  - first:
+      213: -2480337497336181355
+    second: Teddy_SpriteSheet_19
+  - first:
+      213: 5148248229227960637
+    second: Teddy_SpriteSheet_20
+  - first:
+      213: -2996864998818000580
+    second: Teddy_SpriteSheet_21
+  - first:
+      213: -5125975157766896385
+    second: Teddy_SpriteSheet_22
+  - first:
+      213: -1372232392171967472
+    second: Teddy_SpriteSheet_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7560
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cd3e7d671395f20800000000000000
+      internalID: 3411812579207797911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 7560
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1ad8581c5f55cd0800000000000000
+      internalID: -2569877800826854971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 7560
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67b5fe0341982eb0800000000000000
+      internalID: -4744382490234996886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 5670
+        y: 7560
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a0c877e0e4f3d80800000000000000
+      internalID: -8268804566786766177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 7560
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99bdd8aa53cb9a80800000000000000
+      internalID: -8458952680937768550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5670
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521b38e9c3e6a9540800000000000000
+      internalID: 5015442341666992421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 5670
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2994c8590d9fbe70800000000000000
+      internalID: 9133191232800201006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 5670
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099ceeeecfde47920800000000000000
+      internalID: 2987274123449649552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 5670
+        y: 5670
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f3f0e4c107c2020800000000000000
+      internalID: 2318351175059980191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 5670
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bae927a02804f80800000000000000
+      internalID: -8124350746392089711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3780
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16188497df1b9a680800000000000000
+      internalID: -8743261499343470239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 3780
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875733678b08398d0800000000000000
+      internalID: -2840785410195229320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 3780
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda2f8c210263ff60800000000000000
+      internalID: 8066899114732759774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 5670
+        y: 3780
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8393099beae67c0800000000000000
+      internalID: -4076128500711868189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 3780
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41869ba98b0e76370800000000000000
+      internalID: 8315862320437356564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1890
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c356995a8c21b050800000000000000
+      internalID: 5814477566632154052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1890
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7e25300aef78e10800000000000000
+      internalID: 2200006906197764026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 1890
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cbabdbe81064b00800000000000000
+      internalID: 812338495367068827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 5670
+        y: 1890
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2ad79ed6bfc9c20800000000000000
+      internalID: 3214720683523023615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 1890
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d02340032149dd0800000000000000
+      internalID: -2480337497336181355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d399aa6ec70427740800000000000000
+      internalID: 5148248229227960637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 0
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31d6a1692ff866d0800000000000000
+      internalID: -2996864998818000580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 0
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4c3d9a0c0ecd8b0800000000000000
+      internalID: -5125975157766896385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 5670
+        y: 0
+        width: 1890
+        height: 1890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c2e43e8e9d4fce0800000000000000
+      internalID: -1372232392171967472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: df76d89ea231e6d4495e00976f1c9f5c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
