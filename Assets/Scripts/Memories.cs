@@ -6,6 +6,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(string))]
+[RequireComponent(typeof(Text))]
+[RequireComponent(typeof(Text))]
+[RequireComponent(typeof(AudioSource))]
+[RequireComponent(typeof(bool))]
 
 public class Memories : MonoBehaviour
 {

@@ -1,6 +1,11 @@
 ﻿using System.Collections;
 using UnityEngine;
 
+[RequireComponent(typeof(ExecuteDialogue))]
+[RequireComponent(typeof(GameObject))]
+[RequireComponent(typeof(GameObject))]
+[RequireComponent(typeof(GameObject))]
+[RequireComponent(typeof(GameObject))]
 
 public class Tutorial_dialogue : MonoBehaviour
 {

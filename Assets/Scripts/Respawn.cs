@@ -2,6 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(GameObject))]
+[RequireComponent(typeof(Collider2D))]
+[RequireComponent(typeof(GameObject))]
+[RequireComponent(typeof(GameObject))]
+
 public class Respawn : MonoBehaviour
 {
     public GameObject player;
@@ -9,7 +14,7 @@ public class Respawn : MonoBehaviour
     public GameObject animOut;
     public GameObject NPC;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void Reset()
     {
         if (Cave.checkPoints == 0)
             player.transform.position = new Vector3(33f, -3.6f, 0f);
@@ -23,7 +28,11 @@ public class Respawn : MonoBehaviour
         NPC.SetActive(true);
         StartCoroutine(Fade());
     }
-
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Reset();
+    }
+    
     IEnumerator Fade()
     {
         animOut.SetActive(true);

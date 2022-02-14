@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 using System.IO;
 using System.Linq;
 
+[RequireComponent(typeof(GameObject))]
+[RequireComponent(typeof(GameObject))]
+
+
 public class MainMenu : MonoBehaviour
 {
     public GameObject anim;

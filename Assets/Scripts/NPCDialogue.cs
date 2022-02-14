@@ -1,5 +1,10 @@
 using UnityEngine;
 
+[RequireComponent(typeof(GameObject))]
+[RequireComponent(typeof(GameObject))]
+[RequireComponent(typeof(ExecuteDialogue))]
+[RequireComponent(typeof(string))]
+
 public class NPCDialogue : MonoBehaviour
 {
     public GameObject player;

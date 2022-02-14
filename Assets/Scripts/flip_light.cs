@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(GameObject))]
+
 public class flip_light : MonoBehaviour
 {
     public GameObject player;

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Camera))]
+[RequireComponent(typeof(GameObject))]
 public class BookDisplay : MonoBehaviour
 {
     public Camera cam;

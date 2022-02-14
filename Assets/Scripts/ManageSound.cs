@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
+[RequireComponent(typeof(List<AudioSource>))]
+[RequireComponent(typeof(List<AudioSource>))]
 public class ManageSound : MonoBehaviour
 {
     public List<AudioSource> music;

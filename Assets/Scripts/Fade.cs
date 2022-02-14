@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
+[RequireComponent(typeof(GameObject))]
+
 public class Fade : MonoBehaviour
 {
     public GameObject animOut;

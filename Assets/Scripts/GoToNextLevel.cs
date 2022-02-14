@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+[RequireComponent(typeof(GameObject))]
+[RequireComponent(typeof(string))]
+
 public class GoToNextLevel : MonoBehaviour
 {
     public GameObject animIn;

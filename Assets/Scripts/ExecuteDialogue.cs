@@ -5,6 +5,9 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(GameObject))]
+[RequireComponent(typeof(Text))]
+
 public class ExecuteDialogue : MonoBehaviour
 {
     public GameObject dialogue_canvas;

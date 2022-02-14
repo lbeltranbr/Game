@@ -1,5 +1,8 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Collider2D))]
+[RequireComponent(typeof(GameObject))]
+
 public class Crack : MonoBehaviour
 {
     public Collider2D floor;

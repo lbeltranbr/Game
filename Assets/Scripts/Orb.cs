@@ -1,5 +1,9 @@
 using UnityEngine;
 
+[RequireComponent(typeof(GameObject))]
+[RequireComponent(typeof(GameObject))]
+[RequireComponent(typeof(GameObject))]
+
 public class Orb : MonoBehaviour
 {
     // Start is called before the first frame update

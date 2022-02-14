@@ -1,5 +1,11 @@
 ﻿using UnityEngine;
 
+[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(GameObject))]
+[RequireComponent(typeof(GameObject))]
+[RequireComponent(typeof(float))]
+
 public class SimpleMovement : MonoBehaviour
 {
     public Animator animator;
@@ -9,7 +15,7 @@ public class SimpleMovement : MonoBehaviour
     public float speed;
 
     private int mode;
-    private void Start()
+    void Start()
     {
         mode = 0;
     }
@@ -28,7 +34,7 @@ public class SimpleMovement : MonoBehaviour
                 else if (horizontal.x < -0.01f)
                     spriteRenderer.flipX = true;
 
-                transform.position = transform.position + horizontal * Time.deltaTime * speed;
+                transform.position = transform.position + horizontal * (Time.deltaTime * speed);
 
                 if (Input.GetKeyDown(KeyCode.S))
                 {
@@ -44,7 +50,7 @@ public class SimpleMovement : MonoBehaviour
                 animator.SetFloat("Horizontal", 1);
                 horizontal = new Vector3(1, 0.0f, 0.0f);
                 spriteRenderer.flipX = false;
-                transform.position = transform.position + horizontal * Time.deltaTime * speed;
+                transform.position = transform.position + horizontal * (Time.deltaTime * speed);
 
                 break;
 
