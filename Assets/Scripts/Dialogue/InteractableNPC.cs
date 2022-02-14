@@ -19,10 +19,7 @@ public class InteractableNPC : MonoBehaviour
                 E_key.SetActive(false);
 
             }
-
-
         }
-
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

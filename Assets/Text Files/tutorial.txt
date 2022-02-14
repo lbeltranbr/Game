@@ -1,23 +1,23 @@
 Girl
 H-hello? Where am I? is anyone here!
 Spirit
-Hey there! Don’t be afraid I’m here to help guide you!
+Hey there! Don't be afraid I'm here to help guide you!
 Girl
 Guide me? To what?
 Spirit
-I’m here to help guide your soul, to help you be at peace.
+I'm here to help guide your soul, to help you be at peace.
 Girl
-Oh, so this isn’t a dream, I don’t remember what happened.
+Oh, so this isn't a dream, I don't remember what happened.
 Spirit
 Don’t worry! on your path to peace your memories will come back to you.
 Spirit
 Before I let you go, I should show you how to navigate these parts.
 Spirit
-Use “A” and “D” keys to move around
+Use “A” and “D” keys to move around.
 Spirit 
-Yeah! You’re getting the hang of it!
+Yeah! You're getting the hang of it!
 Spirit
-Sadly, all spirits aren’t as friendly and cute as me, so try your best to avoid them!
+Sadly, all spirits aren't as friendly and cute as me, so try your best to avoid them!
 Spirit 
 If you do encounter any spirits and wish to speak with them press the “E” key.
 Spirit
@@ -25,6 +25,6 @@ Give it a try on me!
 Spirit
 There you go, see isn’t that easy!
 Spirit
-Now that you understand the basics, I’ll leave you for now, but don’t worry I’ll come back when I’m needed.
+Now that you understand the basics, I'll leave you for now, but don’t worry I'll come back when I'm needed.
 Spirit
-Just keep walking a bit further and you’ll come across a cave, this is where you will get your first memory! Goodluck!
+Just keep walking a bit further and you'll come across a cave, this is where you will get your first memory! Goodluck!

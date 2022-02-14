@@ -10,12 +10,12 @@ public class Tutorial_dialogue : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject dialogue_canvas;
-    public Transform npc;
+    public GameObject PauseMenu;
+    public GameObject npc;
     public Text nameText;
     public Text dialogueText;
     public Text keys;
     public GameObject popup;
-    public Animator animation;
     public GameObject cont_button;
     public GameObject cont_button_next;
     
@@ -61,12 +61,16 @@ public class Tutorial_dialogue : MonoBehaviour
         {
             dialogue_canvas.SetActive(false);
             FindObjectOfType<SimpleMovement>().enabled = true;
-            keys.gameObject.SetActive(true);
-           
-            if (npc.position.x < 25)
+            if(PauseMenu.activeSelf)
+                keys.gameObject.SetActive(false);
+            else
+                keys.gameObject.SetActive(true);
+
+
+            if (npc.transform.position.x < 25)
             {
                 Vector3 horizontal = new Vector3(1.0f, 0.0f, 0.0f);
-                npc.position = npc.position + horizontal * Time.deltaTime * 6;
+                npc.transform.position = npc.transform.position + horizontal * Time.deltaTime * 6;
                 
             }
 
@@ -79,25 +83,26 @@ public class Tutorial_dialogue : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    FindObjectOfType<SimpleMovement>().enabled = false;
+
                     dialogue_canvas.SetActive(true);
                     DisplayNextSentence();
                     popup.SetActive(false);
                 }
             }
-           
-
         }
-
     }
 
     public void DisplayNextSentence()
     {
         if (names.Count == 0)
         {
-            animation.SetTrigger("Fade");
+            npc.GetComponent<Animator>().SetTrigger("Fade");
             dialogue_canvas.SetActive(false);
             cont_button.SetActive(false);
             cont_button_next.SetActive(true);
+            FindObjectOfType<SimpleMovement>().enabled = true;
+            StartCoroutine("end");
             return;
         }
         nameText.text = names.Dequeue();
@@ -145,6 +150,12 @@ public class Tutorial_dialogue : MonoBehaviour
 
 
         }
+    }
+    IEnumerator end()
+    {
+        yield return new WaitForSeconds(2.0f);
+        npc.SetActive(false);
+        
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
